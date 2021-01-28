@@ -14,7 +14,7 @@ The main method should report how much time each of the two methods take to comp
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
         System.out.println("Enter your 'n' value: ");
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -28,7 +28,7 @@ public class Main {
         endTime = System.nanoTime();
         elapsedTime = endTime - startTime;
         System.out.println("Recursive Cado result: " + result);
-        System.out.println("Elapsed time: " + elapsedTime);
+        System.out.println("--> Elapsed time: " + elapsedTime);
 
         //Non-recursive call:
         startTime = System.nanoTime();
@@ -36,7 +36,7 @@ public class Main {
         endTime = System.nanoTime();
         elapsedTime = endTime - startTime;
         System.out.println("Non-recursive Cado result: " + result);
-        System.out.println("Elapsed time: " + elapsedTime);
+        System.out.println("--> Elapsed time: " + elapsedTime);
     }
 
     //Non-recursive method:
@@ -57,9 +57,12 @@ public class Main {
 
     //Recursive method:
     public static int cadoR(int n){
+        int temp;
         if (n < 3)
             return 1;
-        return cadoR(cadoR(n-1)) + cadoR(n- cadoR(n-1));
+        else
+            temp = cadoR(n-1);  //tip for faster run-time
+        return cadoR(temp) + cadoR(n- temp);
     }
 
 }
