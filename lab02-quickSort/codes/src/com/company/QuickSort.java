@@ -13,7 +13,7 @@ public class QuickSort {
         this.size = 0;
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter array capacity: ");
-        this.capacity = keyboard.nextInt();  //
+        this.capacity = keyboard.nextInt();
         theArray = new int[capacity];
     }
 
