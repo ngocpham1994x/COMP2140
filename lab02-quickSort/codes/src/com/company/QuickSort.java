@@ -87,7 +87,7 @@ public class QuickSort {
 
 
     public int partition(int start, int end, int pivotIndex){
-        swap(theArray, 0, pivotIndex);
+        swap(theArray, start, pivotIndex);
 
         int bigStart = start + 1;
         int pivot = theArray[start];
@@ -111,16 +111,17 @@ public class QuickSort {
 
     private void quickSort(int[] array, int start, int end){
         int pivotPosition;
-        if (2 == (end-start) )   //2 items in the list
+        if (2 == (end-start) ) {  //2 items in the list
             if (array[start+1] < array[start])
                 swap(array, start, start+1);
-            else if (2 < (end-start) ) {   //more than 2 items in the list
-                pivotPosition = medianOfThree(start, end);
-                pivotPosition = partition(start, end, pivotPosition);
+        }
+        else if (2 < (end-start) ) {   //more than 2 items in the list
+            pivotPosition = medianOfThree(start, end);
+            pivotPosition = partition(start, end, pivotPosition);
 
-                quickSort(array,start,pivotPosition);
-                quickSort(array,pivotPosition+1,end);
-            }
+            quickSort(array,start,pivotPosition);
+            quickSort(array,pivotPosition+1,end);
+        }
 
         //Base case = 0 or 1 item in the array, do nothing
 

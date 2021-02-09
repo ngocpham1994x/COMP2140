@@ -30,6 +30,7 @@ public class Main {
         arr.quickSort();
         System.out.println(arr.toString());
         System.out.println("Test");
+        System.out.println("Test2");
 
     }
 }
