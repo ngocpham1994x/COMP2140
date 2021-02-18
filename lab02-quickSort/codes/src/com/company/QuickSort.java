@@ -135,9 +135,9 @@ public class QuickSort {
         System.out.println("Testing array setups. Adding items to array: ");
         arr.addToArray();
         arr.addToArray();
-        arr.addToArray();
-        arr.addToArray();
-        arr.addToArray();
+//        arr.addToArray();
+//        arr.addToArray();
+//        arr.addToArray();
 
 
         System.out.println("Capacity: " + arr.getCapacity());
