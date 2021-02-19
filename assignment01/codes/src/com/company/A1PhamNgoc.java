@@ -16,11 +16,15 @@ import java.util.*;
 
 public class A1PhamNgoc {
 
+    //Question 10:
+
+    //a main method to call the above testing method (Question 8) for a given array size and number of swaps,
+    // which in turn calls the sorting algorithms, and the methods that fill the array and verify that it is sorted.
     public static void main(String[] args) {
-        int arraySize = 3;
+        int arraySize = 10000;
         int numSwaps = (int) (0.25 * arraySize);
 
-        System.out.println("Array size: " + arraySize + "\nNumber of swaps: " + numSwaps);
+        System.out.println("Array size: " + arraySize + "\nNumber of swaps: " + numSwaps + "\n");
         testing(arraySize, numSwaps);
     }
 
@@ -248,11 +252,14 @@ public class A1PhamNgoc {
 
 
     //Question 4: A radix sort algorithm that sorts a positive integer array by starting from the biggest digits of numbers
+
     //In the class example where the biggest value was in hundreds, radix sort used 1s first, then 10s and finally 100s to sort values.
     // In this assignment, radix sort should start from the biggest digit to sort the array. For example, if the biggest number is 3289, it should first consider 3 to assign the number to a bucket.
 
 
+
     //Question 5:A method that verifies that an array is in sorted order
+
     // It should be passed an array and it must check that each item is no bigger than the next item in the array.
     // It should return true if the array is in sorted order and false if it is not.
     public static boolean isSorted(int[] array){
@@ -265,6 +272,7 @@ public class A1PhamNgoc {
 
 
     //Question 6: A method to fill an array with values to sort
+
     // It should be passed a non-null int array "array".
     // It should fill the array with the numbers 0 to array.length-1, in order.
     public static void fill(int[] array){
@@ -274,6 +282,7 @@ public class A1PhamNgoc {
 
 
     //Question 7: A method to randomize an array that is filled with numbers
+
     // It should be passed an array array and a number n. It should perform n random swaps in the array.
     // To perform a random swap, randomly choose two positions in the array and then swap the contents of those two positions.
     public static void randomize(int[] array, int numSwaps){
@@ -289,6 +298,14 @@ public class A1PhamNgoc {
 
 
     //Question 8: A testing method that allows you to compare (and to verify) these sorting methods using a simple statistic
+
+    // the method takes two arguments: array size, and number of swapping
+    // once the testing() method is called, it creates an array fills with index num.
+    // It in turn calls and executes each of the sorting algorithm 100 times on this array.
+    // every iteration, array's items are randomized swapping to ensure that we are not sorting a sorted array.
+    // verify that the sorting method works each time — print a useful error message (including the name of the sorting algorithm that sorted the array) if the array is not sorted.
+    // Elapsed time (in nanoseconds) is reported for each iteration of each algorithm, and is stored in Timings array of its specific algorithm it uses to sort.
+    // Average/mean of algorithm's 100 times run-time is then calculated from given arithmeticMean() method
     public static void testing(int arraySize, int numSwaps){
         long[] mergeSortTimings = new long[100];
         long[] mergeSortInefficientTimings = new long[100];
@@ -393,6 +410,8 @@ public class A1PhamNgoc {
     } // end arithmeticMean
 
 
+    //Question 10: see main() at the top of page (line 19)
+
 }
 
 
@@ -406,12 +425,17 @@ The columns of the table will be 1) alg name, 2) arraySize, 3) time (ms).
 
 
 2.Was merge sort (the efficient version) faster than quick sort? Why or why not? Answer the question for arraySize= 10000, number of swaps=2500.
+Merge sort (efficient) is slower than quick sort, for given setup.
+Because:
 
+3.What is the cost of using the inefficient merge sort vs the merge sort? Answer the question for arraySize= 10000, number of swaps=2500.
+Merge sort algorithm
+1023268.0 nanoseconds
+Merge sort Inefficient algorithm
+2474434.0 nanoseconds
+(approximately double the time)
 
-3.Was merge sort (the efficient version) faster than quick sort? Why or why not? Answer the question for arraySize= 10000, number of swaps=2500.
-
-
-4.Was merge sort (the efficient version) faster than quick sort? Why or why not? Answer the question for arraySize= 10000, number of swaps=2500.
+4.Was radix sort faster than merge sort (the efficient version)? Answer the question for arraySize= 10000, number of swaps=2500.
 
 
 5.Compared to comparison based sort functions, what are the operations that slow down radix sort?
