@@ -5,9 +5,10 @@
  * INSTRUCTOR Akcora
  * ASSIGNMENT Assignment # 1
  * @author NGOC PHAM (7891063)
- * @version February 19 2021
+ * @version February 20 2021
  *
  * PURPOSE: what is the purpose of your program?
+ * Performing 4 different sorting algorithms and comparing time complexities (running time)
  */
 
 package com.company;
