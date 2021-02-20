@@ -26,6 +26,8 @@ public class A1PhamNgoc {
 
         System.out.println("Array size: " + arraySize + "\nNumber of swaps: " + numSwaps + "\n");
         testing(arraySize, numSwaps);
+
+        System.out.println("\nEnd of processing");
     }
 
 
@@ -255,7 +257,20 @@ public class A1PhamNgoc {
 
     //In the class example where the biggest value was in hundreds, radix sort used 1s first, then 10s and finally 100s to sort values.
     // In this assignment, radix sort should start from the biggest digit to sort the array. For example, if the biggest number is 3289, it should first consider 3 to assign the number to a bucket.
+    public static void radixSort(int[] array){
+        /*
+        find max number
+        find num of digits from max num
+        create buckets - an 2D ArrayList with size 10 representing 0-9 digits, also indices
 
+        for eachDigit of maxNum
+            for eachItem (num) in array
+                buckets[num % 10].add = num; //count occurrences of digit and update bucket's count
+
+        array[n] = buckets[i][j]
+
+        */
+    }
 
 
     //Question 5:A method that verifies that an array is in sorted order
@@ -395,7 +410,6 @@ public class A1PhamNgoc {
 
 
 
-
     //Question 9: The method that computes the arithmetic mean of timings
     /*******************************************************************
      * arithmeticMean
@@ -408,6 +422,7 @@ public class A1PhamNgoc {
             sum += (double)data[i];
         return sum / (double)data.length;
     } // end arithmeticMean
+
 
 
     //Question 10: see main() at the top of page (line 19)
