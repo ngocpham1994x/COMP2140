@@ -5,6 +5,8 @@ import java.util.*;
 public class RadixSortMSD {
 
     public static void main(String[] args) {
+        //recursive radixSort MSD with 2D-array as buckets
+        //Note: below radixSort() only uses for POSITIVE integers
 
         int[] array = new int[]{170, 45, 3456, 575, 90, 802, 1234, 24, 50000, 2, 66};
         radixSort(array);

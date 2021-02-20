@@ -6,8 +6,9 @@ public class RadixSortLSDv1 {
 
     public static void main(String[] args) {
         //radix sort using regular 2D-array as buckets (to be modified)
+        //Note: below radixSort() only uses for POSITIVE integers
 
-        int[] array = new int[]{170, 45, 123456, 75, 90, 802, 24, 2, 66};
+        int[] array = new int[]{7, 3, 2, 1, 0, 45,18,5,100,3,1,19,6,0,7,4,2,170, 45, 123456, 75, 90, 802, 24, 2, 66};
         radixSort(array);
         System.out.println(Arrays.toString(array));
 
@@ -17,30 +18,42 @@ public class RadixSortLSDv1 {
 
         int max = getMax(array);
         int totalDigit = countDigit(max);
-        ArrayList outputArray = new ArrayList();
-        outputArray = copyArrayToArrayList(array,outputArray);
 
-        ArrayList<ArrayList> buckets = new ArrayList();
-        for(int i=0; i < 10; i++)
-            buckets.add(new ArrayList());
 
-        for(int i = 1; i <= totalDigit; i++){  //placement: 10th, 100th
-            for(int j = 0; j < outputArray.size(); j++){ // iterate through each item in array
-                int currNum = (int) outputArray.get(j);
-                int currDigit = getDigit(currNum,i,totalDigit);
-                buckets.get(currDigit).add(currNum);
+        for(int digitOrder = 1; digitOrder <= totalDigit; digitOrder++){
+            int[][] buckets = new int[10][0];
+            for(int item = 0; item < array.length; item++){
+                int currNum = array[item];
+                int currDigit = getDigit(currNum,digitOrder,totalDigit);
+                buckets[currDigit] = placeIntoBucket(buckets[currDigit],currNum);
             }
-            outputArray = flatten(buckets);
-            for(int k = 0; k < buckets.size(); k++){
-                buckets.get(k).clear();
+
+            //overwrite original array with values in buckets, following bucket order 0 to 9
+            int arrayItem = 0;
+            for(int bucketNum = 0; bucketNum < 10; bucketNum++){
+                if(buckets[bucketNum].length != 0){
+                    for(int bucketItem = 0; bucketItem < buckets[bucketNum].length; bucketItem++)
+                        array[arrayItem++] = buckets[bucketNum][bucketItem];
+                }
             }
-        }
 
-        //copy back to original array
-        for(int i=0; i < outputArray.size(); i++)
-            array[i] = (int) outputArray.get(i);
+        }// end digitOrder
 
+    }// end radixSort
+
+
+    //placing the number into the corresponding bucket
+    //in other words, adding new num to the bucket's array (bucket's list) by copying old bucket's array and add new num
+    //this method changes the size of the bucket (replace its array with new array)
+    private static int[] placeIntoBucket(int[] bucket, int currNum) {
+        int[] bucketList = new int[bucket.length + 1];
+
+        System.arraycopy(bucket, 0, bucketList, 0, bucket.length);
+        bucketList[bucketList.length - 1] = currNum;
+
+        return bucketList;
     }
+
 
     public static int getMax( int[] array){
         int max = array[0];
@@ -66,29 +79,6 @@ public class RadixSortLSDv1 {
         return digitValue;
     }
 
-    public static ArrayList flatten(ArrayList array) {
-        ArrayList flatArray = new ArrayList();
 
-
-        for (int i = 0; i < array.size(); i++) {
-            Object element = array.get(i);
-            if (element instanceof ArrayList)
-                flatArray.addAll(flatten((ArrayList)(element)));    //recursion of flatten()
-            else
-                flatArray.add(element);
-        }
-
-        return flatArray;
-    }
-
-
-    public static ArrayList copyArrayToArrayList(int[] array, ArrayList arrayList){
-        ArrayList returnArrayList = new ArrayList();
-
-        for(int i=0; i < array.length; i++)
-            returnArrayList.add(array[i]);
-
-        return returnArrayList;
-    }
 
 } //end RadixSortLSDv1
