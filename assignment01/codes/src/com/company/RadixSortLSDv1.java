@@ -5,6 +5,7 @@ import java.util.*;
 public class RadixSortLSDv1 {
 
     public static void main(String[] args) {
+        //radix sort using regular 2D-array as buckets (to be modified)
 
         int[] array = new int[]{170, 45, 123456, 75, 90, 802, 24, 2, 66};
         radixSort(array);

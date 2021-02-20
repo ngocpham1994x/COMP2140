@@ -21,7 +21,7 @@ public class A1PhamNgoc {
     //a main method to call the above testing method (Question 8) for a given array size and number of swaps,
     // which in turn calls the sorting algorithms, and the methods that fill the array and verify that it is sorted.
     public static void main(String[] args) {
-        int arraySize = 60000;
+        int arraySize = 10000;
         int numSwaps = (int) (0.25 * arraySize);
 
         System.out.println("Array size: " + arraySize + "\nNumber of swaps: " + numSwaps + "\n");
@@ -416,17 +416,13 @@ public class A1PhamNgoc {
 
         System.out.println("Merge sort algorithm");
         for( int i = 0; i < 100; i++ ){
-//            System.out.println("Testing record #" + i);
             randomize(array, numSwaps);
-//            System.out.println(Arrays.toString(array));
-//            System.out.println("\nSorting...");
             startTime = System.nanoTime();
             mergeSort(array);
             endTime = System.nanoTime();
-//            System.out.println(Arrays.toString(array));
             if(isSorted(array)){
                 elapsedTime = endTime - startTime;
-                mergeSortTimings[i] = elapsedTime;
+                mergeSortTimings[i] = (long) (elapsedTime * Math.pow(10,-6));
             }
             else
                 System.out.println("Array is not successfully sorted");
@@ -434,76 +430,60 @@ public class A1PhamNgoc {
 
         }
         mergeSortMean = arithmeticMean( mergeSortTimings );
-//        System.out.println(Arrays.toString(mergeSortTimings));
-        System.out.println(mergeSortMean + " nanoseconds");
+        System.out.println(mergeSortMean + " milliseconds");
         System.out.println("/***********************************************************/");
 
 
         System.out.println("Merge sort Inefficient algorithm");
         for( int i = 0; i < 100; i++ ){
-//            System.out.println("Testing record #" + i);
             randomize(array, numSwaps);
-//            System.out.println(Arrays.toString(array));
-//            System.out.println("\nSorting...");
             startTime = System.nanoTime();
             mergeSortInefficient(array);
             endTime = System.nanoTime();
-//            System.out.println(Arrays.toString(array));
             if(isSorted(array)) {
                 elapsedTime = endTime - startTime;
-                mergeSortInefficientTimings[i] = elapsedTime;
+                mergeSortInefficientTimings[i] = (long) (elapsedTime * Math.pow(10,-6));
             }
             else
                 System.out.println("Array is not successfully sorted");
         }
         mergeSortInefficientMean = arithmeticMean( mergeSortInefficientTimings );
-//        System.out.println(Arrays.toString(mergeSortInefficientTimings));
-        System.out.println(mergeSortInefficientMean + " nanoseconds");
+        System.out.println(mergeSortInefficientMean + " milliseconds");
         System.out.println("/***********************************************************/");
 
 
         System.out.println("Quick sort algorithm");
         for( int i = 0; i < 100; i++ ){
-//            System.out.println("Testing record #" + i);
             randomize(array, numSwaps);
-//            System.out.println(Arrays.toString(array));
-//            System.out.println("\nSorting...");
             startTime = System.nanoTime();
             quickSort(array);
             endTime = System.nanoTime();
-//            System.out.println(Arrays.toString(array));
             if(isSorted(array)) {
                 elapsedTime = endTime - startTime;
-                quickSortTimings[i] = elapsedTime;
+                quickSortTimings[i] = (long) (elapsedTime * Math.pow(10,-6));
             }
             else
                 System.out.println("Array is not successfully sorted");
         }
         quickSortMean = arithmeticMean( quickSortTimings );
-//        System.out.println(Arrays.toString(quickSortTimings));
-        System.out.println(quickSortMean + " nanoseconds");
+        System.out.println(quickSortMean + " milliseconds");
         System.out.println("/***********************************************************/");
 
 
-        System.out.println("Radix sort algorithm");
+        System.out.println("Radix sort (MSD) algorithm");
         for( int i = 0; i < 100; i++ ) {
-//            System.out.println("Testing record #" + i);
             randomize(array, numSwaps);
-//            System.out.println(Arrays.toString(array));
-//            System.out.println("\nSorting...");
             startTime = System.nanoTime();
             radixSort(array);
             endTime = System.nanoTime();
-//            System.out.println(Arrays.toString(array));
             if (isSorted(array)) {
                 elapsedTime = endTime - startTime;
-                radixSortTimings[i] = elapsedTime;
+                radixSortTimings[i] = (long) (elapsedTime * Math.pow(10,-6));
             } else
                 System.out.println("Array is not successfully sorted");
         }
         radixSortMean = arithmeticMean( radixSortTimings );
-//        System.out.println(Arrays.toString(radixSortTimings));
-        System.out.println(radixSortMean + " nanoseconds");
+        System.out.println(radixSortMean + " milliseconds");
         System.out.println("/***********************************************************/");
 
     }//end testing()
@@ -531,30 +511,120 @@ public class A1PhamNgoc {
 
 
 
-/*Report:
+/**REPORT**:
 1. In the main function, increase array size from arraySize= 5K, . . . , 60K by 5K at every step
 and record sorting times (keep the randomization at 25%, i.e., numSwaps = 0.25×arraySize) for each algorithm.
-In your report, crate a table (in text, columns separated by the | character ) of times versus array size for each algorithm.
+In your report, create a table (in text, columns separated by the | character ) of times versus array size for each algorithm.
 The columns of the table will be 1) alg name, 2) arraySize, 3) time (ms).
 
+Algorithm           |    arraySize  |   time (ms)
+mergeSort           |       5K      |       0.34
+mergeSortInefficient|               |       0.58
+quickSort           |               |       0.1
+radixSort           |               |       8.13
+------------------------------------------------------
+mergeSort           |       10K     |       0.27
+mergeSortInefficient|               |       2.17
+quickSort           |               |       0.17
+radixSort           |               |       13.01
+------------------------------------------------------
+mergeSort           |       15K     |       1.11
+mergeSortInefficient|               |       3.32
+quickSort           |               |       0.87
+radixSort           |               |       63.35
+------------------------------------------------------
+mergeSort           |       20K     |       1.39
+mergeSortInefficient|               |       4.49
+quickSort           |               |       1.65
+radixSort           |               |       89.57
+------------------------------------------------------
+mergeSort           |       25K     |       2.45
+mergeSortInefficient|               |       5.63
+quickSort           |               |       1.55
+radixSort           |               |       104.01
+------------------------------------------------------
+mergeSort           |       30K     |       3.14
+mergeSortInefficient|               |       6.29
+quickSort           |               |       2.21
+radixSort           |               |       131.48
+------------------------------------------------------
+mergeSort           |       35K     |       3.81
+mergeSortInefficient|               |       6.99
+quickSort           |               |       2.42
+radixSort           |               |       141.1
+------------------------------------------------------
+mergeSort           |       40K     |       4.55
+mergeSortInefficient|               |       8.42
+quickSort           |               |       2.51
+radixSort           |               |       169.57
+------------------------------------------------------
+mergeSort           |       45K     |       4.74
+mergeSortInefficient|               |       9.57
+quickSort           |               |       2.59
+radixSort           |               |       170.94
+------------------------------------------------------
+mergeSort           |       50K     |       5.45
+mergeSortInefficient|               |       10.04
+quickSort           |               |       4.11
+radixSort           |               |       204.78
+------------------------------------------------------
+mergeSort           |       55K     |       7.16
+mergeSortInefficient|               |       11.01
+quickSort           |               |       3.74
+radixSort           |               |       217.27
+------------------------------------------------------
+mergeSort           |       60K     |       7.4
+mergeSortInefficient|               |       12.46
+quickSort           |               |       4.29
+radixSort           |               |       244.15
 
 
 2.Was merge sort (the efficient version) faster than quick sort? Why or why not? Answer the question for arraySize= 10000, number of swaps=2500.
-Merge sort (efficient) is slower than quick sort, for given setup.
-Because:
+Array size: 10000
+Number of swaps: 2500
+
+Merge sort algorithm
+0.27 milliseconds
+Quick sort algorithm
+0.17 milliseconds
+
+No. In general, for given setup, mergeSort (efficient) is slower than quickSort.
+Because: mergeSort has time complexity of O(nlogn), and quickSort - if choosing good pivot - has average time complexity of O(nlogn) as well.
+However, quickSort:
+-linearly scans the input and linearly partitions the input
+-is sensitive to input that happens to be in the right order (pick median as pivot, whereas mergeSort just take the middle index to partition), in which case it can skip some swaps
+-make more recursive calls, but allocating stack space is cheap
+
 
 3.What is the cost of using the inefficient merge sort vs the merge sort? Answer the question for arraySize= 10000, number of swaps=2500.
+merSort is faster than mergeSortInefficient.
+
+Array size: 10000
+Number of swaps: 2500
+
 Merge sort algorithm
-1023268.0 nanoseconds
+0.27 milliseconds
 Merge sort Inefficient algorithm
-2474434.0 nanoseconds
-(approximately double the time)
+2.17 milliseconds
+
 
 4.Was radix sort faster than merge sort (the efficient version)? Answer the question for arraySize= 10000, number of swaps=2500.
+No. radixSort is slower than mergeSort (efficient).
+
+Array size: 10000
+Number of swaps: 2500
+
+Merge sort algorithm
+0.27 milliseconds
+Radix sort (MSD) algorithm
+13.01 milliseconds
 
 
 5.Compared to comparison based sort functions, what are the operations that slow down radix sort?
+Radix sort never directly compares one whole item to another whole item.
+Radix sort looks at the same piece of all items, then at another piece in all items, and so on, until it has seen all of pieces of items.
+=> more recursive calls than other comparison-based sorting algorithms.
 
 
 6.Optional, not graded: Try to fit a curve to the sort times you will record in item number 1. Report the curve values for algorithms.
- */
+ **/
