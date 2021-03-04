@@ -276,7 +276,7 @@ class Set
     thisCurr = this.top;
     otherCurr = otherSet.top;
 
-    while (thisCurr != null && otherCurr != null){
+    while (thisCurr != null && otherCurr != null){  //move forward in both lists
         if (thisCurr.item > otherCurr.item)
             otherCurr = otherCurr.next;
         else if (thisCurr.item < otherCurr.item)
