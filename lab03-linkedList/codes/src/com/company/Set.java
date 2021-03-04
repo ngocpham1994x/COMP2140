@@ -270,8 +270,25 @@ class Set
     {
 
 /********************************** YOUR CODE GOES HERE *********************************/
-    Set dummy = new Set();
-    return dummy;
+    Node thisCurr, otherCurr; // curr for this and curr for otherSet, respectively.
+    Set result = new Set();
+
+    thisCurr = this.top;
+    otherCurr = otherSet.top;
+
+    while (thisCurr != null && otherCurr != null){
+        if (thisCurr.item > otherCurr.item)
+            otherCurr = otherCurr.next;
+        else if (thisCurr.item < otherCurr.item)
+            thisCurr = thisCurr.next;
+        else {
+            result.addLast(thisCurr.item);
+            thisCurr = thisCurr.next;
+            otherCurr = otherCurr.next;
+        }
+    }
+
+    return result;
 
     }
 
