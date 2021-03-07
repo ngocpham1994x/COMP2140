@@ -149,16 +149,28 @@ public class LinkedList
             hasDummies = false;
         return hasDummies;
     }//end of hasDummies
-    /*
-    isOrdinary: checks the type of this list.
-    If the list is in a given type, it returns true, otherwise false.
-    if the list empty, return false.
-    Use the nodecount variable to detect the end
-     */
+    /**
+     * isOrdinary: checks the type of this list.
+     * If the list is in a given type, it returns true, otherwise false.
+     * if the list empty, return false.
+     * Use the nodecount variable to detect the end
+     **/
     public boolean isOrdinary( ) {
         //write your code here
         //change return type yourself
-        return false;
+        boolean isOrdinary = true;
+        Node curr = last; //top
+        int count = nodeCount;
+
+
+//        while (count > 0 && curr.next != null) {
+//            curr = curr.next;
+//            count--;
+//        }
+//        if( last == null || curr.next != null ) //if empty list or circular linked list
+//            isOrdinary = false;
+
+        return isOrdinary;
     }//end of isOrdinary
     /**
      * isCircular: checks the type of this list.
@@ -170,15 +182,15 @@ public class LinkedList
         //write your code here
         //change return type yourself
         boolean isCircular = true;
-        Node top = last.next; //top
-        Node curr = last.next;
+//        Node top = last.next; //top
+        Node curr = last;
         int count = nodeCount;
 
-        while( count > 0){
+        while( count > 0 && curr.next != null){
             curr = curr.next;
             count--;
-        }
-        if(curr != top)
+        } //end of while, pointer curr is sitting at last node
+        if(last == null || curr.next == null )  //if empty list or ordinary linked list with next of last node points to null
             isCircular = false;
 
         return isCircular;
@@ -207,8 +219,8 @@ public class LinkedList
     public void convertCircularToOrdinary() {
 
         //write your code here
-        if(last != null) { //for non-empty list
-            Node top = new Node(last.next.item, last.next); //temporary pointer
+        if(last.next != null) { //for non-empty list
+            Node top = last.next; //temp node
             last.next = null;
             last = top;
         }
@@ -249,16 +261,40 @@ public class LinkedList
         Node prev = last;
         Node curr1 = last.next;
         Node curr2 = list2.last.next;
-        int count = list2.nodeCount;
+        int count1 = this.nodeCount;
+        int count2 = list2.nodeCount;
 
-        while (count > 0) {  //moving forward in list2
+        while (count2 > 0) {  //moving forward in list2
+//            //no element in list1
+//            if(count1 == 0){
+//                this.last = list2.last;
+//            }
+//
+//            //one element in list1
+//            if (count1 == 1){
+//                if(curr1.item >= curr2.item ){
+//                    this.insertValue(curr2.item); //insert front
+//                    curr2 = curr2.next;
+//                    count2--;
+//                    nodeCount++;
+//                }
+//                else {
+//                    Node newNode = new Node(curr2.item, curr1.next);
+//                    curr1.next = newNode;
+//                    curr2 = curr2.next;
+//                    count2--;
+//                    nodeCount++;
+//                }
+//            }
+
+            //more than 1 element in list1
             if ( (curr1.item <= curr2.item && curr2.item < curr1.next.item) || (curr1.item < curr2.item && curr2.item <= curr1.next.item) ) {
                 Node newNode = new Node(curr2.item, curr1.next);
                 curr1.next = newNode;
                 prev = curr1;
                 curr1 = newNode;
                 curr2 = curr2.next;
-                count--;
+                count2--;
                 nodeCount++;
             }
             else if ( curr2.item < curr1.item){
@@ -266,17 +302,18 @@ public class LinkedList
                 prev.next = newNode;
                 prev = newNode;
                 curr2 = curr2.next;
-                count--;
+                count2--;
                 nodeCount++;
             }
             else {
                 prev = curr1;
                 curr1 = curr1.next;
             }
-                System.out.println("add curr2 " + this.printList());
+//                System.out.println("add curr2 " + this.printList());
         }
 
-        if(this.last.item < this.last.next.item)
+
+        while(this.last.item <= this.last.next.item)
             last = last.next;   //update this.last pointer
 
 
@@ -479,37 +516,37 @@ public class LinkedList
      *
      **************************************/
 
-//    public void printList()
-//    {
-//        Node curr;
-//
-//        if (nodeCount > 0)
-//        {
-//            curr = last.next;
-//            do
-//            {
-//                System.out.println( curr.item );
-//                curr = curr.next;
-//            } while ( curr != last.next );
-//        }
-//    } // end printList
-
-    public String printList()
+    public void printList()
     {
         Node curr;
-        String s = "[ ";
 
         if (nodeCount > 0)
         {
-            curr = last;
+            curr = last.next;
             do
             {
-                s = s + curr.item + " ";
+                System.out.println( curr.item );
                 curr = curr.next;
-            } while ( curr != null);
+            } while ( curr != last.next );
         }
-        return s;
     } // end printList
+
+//    public String printList()
+//    {
+//        Node curr;
+//        String s = "[ ";
+//
+//        if (nodeCount > 0)
+//        {
+//            curr = last;
+//            do
+//            {
+//                s = s + curr.item + " ";
+//                curr = curr.next;
+//            } while ( curr != null);
+//        }
+//        return s;
+//    } // end printList
 
 
 } // end e1073 class LinkedList

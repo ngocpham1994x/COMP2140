@@ -36,10 +36,10 @@ public class Assignment2
     }
     list1.quickSort();
     list2.quickSort();
-    String s1 = list1.printList();
-    System.out.println(s1);
-    String s2= list2.printList();
-    System.out.println(s2);
+//    String s1 = list1.printList();
+//    System.out.println(s1);
+//    String s2= list2.printList();
+//    System.out.println(s2);
 
 //    System.out.println( "\nCOMP 2140 Assignment 2 linked list questions" );
 //    System.out.println( "\nCurrently both List1 and List2 are circular." );
@@ -47,23 +47,21 @@ public class Assignment2
 //    System.out.println( "\nOtherwise we would need to rewrite the insert function." );
     list1.add(list2);
     int size = list1Size + list2Size;
-
     System.out.println("List1 is expanded: "+(list1.getSize()== size));
     System.out.println("List1 is in order: "+ list1.isSorted());
     System.out.println("List2 is in order: "+ list2.isSorted());
+    System.out.println("Type of List1 is Circular:"+list1.isCircular()+"\n");
 
-
-    System.out.println("Type of List1 is Circular:"+list1.isCircular());
 
     list1.convertCircularToOrdinary();
     System.out.println("Type of List1 is Ordinary:"+list1.isOrdinary());
     list1.deleteOddNodes();
     System.out.println("Odd nodes are deleted:"+list1.getSize()+" nodes remain");
     list1.convertOrdinaryToCircular();
-    System.out.println("Type of List1 is Circular:"+list1.isCircular());
+    System.out.println("Type of List1 is Circular:"+list1.isCircular() +"\n");
     list1.convertCircularToOrdinary();//again, in order to add dummies.
-    s1 = list1.printList();
-    System.out.printf("Final add " + s1+ "\n");
+//    list1.printList();
+//    System.out.printf("Final add " + s1+ "\n");
     list1.addDummies();
     System.out.println("List1 has dummies:"+list1.hasDummies());
 
