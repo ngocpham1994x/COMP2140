@@ -119,11 +119,14 @@ public class LinkedList
         // Because if the linkedlist is big, you would store too much information.
         return false;
     }//end of findCorruption
-    /*
-    reset: Remove every node from the linked list. Do not forget the nodeCount variable.
-     */
+    /**
+     * reset: Remove every node from the linked list.
+     * Do not forget the nodeCount variable.
+     **/
     public void reset() {
         //write your code here.
+//        last = null;
+//        this.nodeCount = 0;
     }// end of reset
 
     /*
@@ -133,15 +136,18 @@ public class LinkedList
     public void deleteOddNodes() {
         //write your code here
     }//end of deleteOddNotes
-    /*
-    hasDummies: checks if the linked list has 1) a dummy header with Integer.MIN_VALUE
-    and a dummy trailer with  Integer.MAX_VALUE.
-     */
+    /**
+     * hasDummies: checks if the linked list has 1) a dummy header with Integer.MIN_VALUE
+     * and a dummy trailer with  Integer.MAX_VALUE.
+     **/
 
     public boolean hasDummies() {
         //write your code here
         //change return type yourself
-        return false;
+        boolean hasDummies = true;
+        if (last.item != Integer.MAX_VALUE || last.next.item != Integer.MIN_VALUE)
+            hasDummies = false;
+        return hasDummies;
     }//end of hasDummies
     /*
     isOrdinary: checks the type of this list.
@@ -154,24 +160,40 @@ public class LinkedList
         //change return type yourself
         return false;
     }//end of isOrdinary
-    /*
-   isCircular: checks the type of this list.
-   If the list is circular, it returns true, otherwise false.
-   if the list empty, return false.
-   Use the nodeCount variable to detect the end
-
-    */
+    /**
+     * isCircular: checks the type of this list.
+     * If the list is circular, it returns true, otherwise false.
+     * if the list empty, return false.
+     * Use the nodeCount variable to detect the end
+    **/
     public boolean isCircular( ) {
         //write your code here
         //change return type yourself
-        return false;
+        boolean isCircular = true;
+        Node top = last.next; //top
+        Node curr = last.next;
+        int count = nodeCount;
+
+        while( count > 0){
+            curr = curr.next;
+            count--;
+        }
+        if(curr != top)
+            isCircular = false;
+
+        return isCircular;
     }//end of isCircular
-    /*
-    addDummies: add a dummy header and a dummy trailer to the linked list.
-    Use Integer.MIN_VALUE and Integer.MAX_VALUE
-     */
+    /**
+     * addDummies: add a dummy header and a dummy trailer to the linked list.
+     * Use Integer.MIN_VALUE and Integer.MAX_VALUE
+     **/
     public void addDummies() {
         // write your code here
+        Node header = new Node(Integer.MIN_VALUE,last.next);
+        Node trailer = new Node(Integer.MAX_VALUE,header);
+
+        last.next = trailer;
+        last = trailer;
     }//end of addDummies
     /***********************************************
      *
@@ -185,6 +207,11 @@ public class LinkedList
     public void convertCircularToOrdinary() {
 
         //write your code here
+        if(last != null) { //for non-empty list
+            Node top = new Node(last.next.item, last.next); //temporary pointer
+            last.next = null;
+            last = top;
+        }
 
     }//end of convertCircularToOrdinary
 
@@ -195,6 +222,18 @@ public class LinkedList
     public void convertOrdinaryToCircular() {
 
         //write your code here
+        //below method works for all extreme cases: empty list, one-element list
+        Node prev = null;
+        Node top = last; //for circle back later
+
+        while (last != null) {
+            prev = last;        //record keeping
+            last = last.next;   //to detect last node = null
+        }
+
+        last = prev;        //move one node backward
+        last.next = top;    //circle back to original top
+
     }//end of convertOrdinaryToCircular
 
 
@@ -210,20 +249,36 @@ public class LinkedList
         Node prev = last;
         Node curr1 = last.next;
         Node curr2 = list2.last.next;
+        int count = list2.nodeCount;
 
-        while (curr2 != list2.last) {  //moving forward in list2
-            if (curr1.item < curr2.item) {
+        while (count > 0) {  //moving forward in list2
+            if ( (curr1.item <= curr2.item && curr2.item < curr1.next.item) || (curr1.item < curr2.item && curr2.item <= curr1.next.item) ) {
                 Node newNode = new Node(curr2.item, curr1.next);
                 curr1.next = newNode;
                 prev = curr1;
-                curr1 = newNode.next;
-            } else { // if (curr1.item > curr2.item || curr1.item == curr2.item)
+                curr1 = newNode;
+                curr2 = curr2.next;
+                count--;
+                nodeCount++;
+            }
+            else if ( curr2.item < curr1.item){
                 Node newNode = new Node(curr2.item, curr1);
                 prev.next = newNode;
                 prev = newNode;
+                curr2 = curr2.next;
+                count--;
+                nodeCount++;
             }
-            curr2 = curr2.next;
+            else {
+                prev = curr1;
+                curr1 = curr1.next;
+            }
+                System.out.println("add curr2 " + this.printList());
         }
+
+        if(this.last.item < this.last.next.item)
+            last = last.next;   //update this.last pointer
+
 
     }//end of add
 
@@ -424,22 +479,37 @@ public class LinkedList
      *
      **************************************/
 
-    public void printList()
+//    public void printList()
+//    {
+//        Node curr;
+//
+//        if (nodeCount > 0)
+//        {
+//            curr = last.next;
+//            do
+//            {
+//                System.out.println( curr.item );
+//                curr = curr.next;
+//            } while ( curr != last.next );
+//        }
+//    } // end printList
+
+    public String printList()
     {
         Node curr;
+        String s = "[ ";
 
         if (nodeCount > 0)
         {
-            curr = last.next;
+            curr = last;
             do
             {
-                System.out.println( curr.item );
+                s = s + curr.item + " ";
                 curr = curr.next;
-            } while ( curr != last.next );
+            } while ( curr != null);
         }
+        return s;
     } // end printList
-
-
 
 
 } // end e1073 class LinkedList
