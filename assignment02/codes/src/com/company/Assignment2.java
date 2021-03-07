@@ -1,3 +1,4 @@
+package com.company;
 
 import java.util.Random;
 
@@ -5,7 +6,7 @@ import java.util.Random;
  * COMP 2140   SECTION A01
  * INSTRUCTOR    Cuneyt Akcora
  * Assignment           2
- * @author       your name, your student number
+ * @author       Ngoc Pham, 7891063
  * @version      date of completion
  *
  * PURPOSE: To implement Link list merge, fix and conversion methods.
@@ -142,3 +143,18 @@ public class Assignment2
 
 } // end class Assignment2
 
+
+/**
+ REPORT:
+
+ 1. In value insertion to the array, how many times did your code create a new array?
+
+
+ 2. In value insertion to the array, how many array elements are left unused after the very last insertion?
+    This is the memory cost of using arrays.
+
+
+ 3. When is it useful to store data in arrays vs linked lists?
+
+
+ **/
