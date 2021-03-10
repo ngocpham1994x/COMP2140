@@ -116,11 +116,11 @@ public class LinkedList
 
 
         //below commented lines are for troubleshooting, printing out the corrupted loop
-//        last = curr; //from ordinary linked list with "last" pointer at top, to circular linked list with "last" pointer at actual last node
-//        last.next = indexNode;  //turn the list to circular linked list
-//        nodeCount = nodeCount - index + 1; //keeps track of node count in list
+        last = curr; //from ordinary linked list with "last" pointer at top, to circular linked list with "last" pointer at actual last node
+        last.next = indexNode;  //turn the list to circular linked list
+        nodeCount = nodeCount - index + 1; //keeps track of node count in list
 
-        curr.next = indexNode;   //turn the list to circular linked list
+//        curr.next = indexNode;   //turn the list to circular linked list
 
         return valOfCorruptedNode;
     }//end of corrupt
@@ -299,7 +299,7 @@ public class LinkedList
         Node curr = last; //top
         while(curr.next != null){
             prev = curr;
-            curr = curr.next;  //move forward in list, stop at actual last node in ordinary list
+            curr = curr.next;  //move forward in list
             if(curr.item == Integer.MAX_VALUE){
                 prev.next = null;
             }
@@ -357,8 +357,45 @@ public class LinkedList
         Node prev = last;       //list1's prev
         Node curr1 = last.next; //list1's top
         Node curr2 = list2.last.next; //list2's top
+//        int count1 = this.nodeCount;
         int count2 = list2.nodeCount;
 
+
+        //buggy codes
+//        while (count2 >0 && count1 > 0){
+//            if(curr1.item <= curr2.item){
+//                Node newNode = new Node(curr2.item, curr1.next);
+//                curr1.next = newNode;
+//                prev = curr1;
+//                curr1 = newNode;
+//                curr2 = curr2.next;
+//                count2--;
+////                count1--;
+//                nodeCount++;
+//            }
+//            else {
+//                Node newNode = new Node(curr2.item, prev.next);
+//                prev.next = newNode;
+//                prev = newNode;
+//                curr2 = curr2.next;
+//                count2--;
+//                nodeCount++;
+//            }
+//        }
+//
+//        while(count2 > 0){
+//            Node newNode = new Node(curr2.item, curr1.next);
+//            curr1.next = newNode;
+//            prev = curr1;
+//            curr1 = curr1.next;
+//            curr2 = curr2.next;
+//            count2--;
+//            nodeCount++;
+//        }
+
+
+
+        //stable codes, works for list1.size >= list2.size only
         while (count2 > 0) {  //moving forward in list2
 
             //more than 1 element in list1: check value of curr2 with value of curr1 and value of curr1.next - to decide position to add in list1
@@ -388,7 +425,6 @@ public class LinkedList
 
         while(this.last.item <= this.last.next.item)
             last = last.next;   //update this.last pointer, last is now the actual last node in circular list1
-
 
     }//end of add
 
@@ -589,21 +625,71 @@ public class LinkedList
      *
      **************************************/
 
-    public void printList()
+//    public void printList()
+//    {
+//        Node curr;
+//
+//        if (nodeCount > 0)
+//        {
+//            curr = last.next;
+//            do
+//            {
+//                System.out.println( curr.item );
+//                curr = curr.next;
+//            } while ( curr != last.next );
+//        }
+//    } // end printList
+
+    public String printListCircular()
     {
         Node curr;
+        String s = "[ ";
 
         if (nodeCount > 0)
         {
             curr = last.next;
             do
             {
-                System.out.println( curr.item );
+                s += curr.item + " ";
                 curr = curr.next;
             } while ( curr != last.next );
         }
+        return s;
     } // end printList
 
+    public String printListOrdinary()
+    {
+        Node curr;
+        String s = "[ ";
+
+        if (nodeCount > 0)
+        {
+            curr = last;
+            do
+            {
+                s += curr.item + " ";
+                curr = curr.next;
+            } while ( curr != null );
+        }
+        return s;
+    } // end printList
+
+    public String printListCorrupted()
+    {
+        Node curr;
+        String s = "[ ";
+
+        if (nodeCount > 0)
+        {
+            curr = last.next;
+            do
+            {
+                s += curr.item + " ";
+                curr = curr.next;
+            } while ( curr != last.next );
+        }
+        return s;
+    } // end printList
 
 
 } // end e1073 class LinkedList

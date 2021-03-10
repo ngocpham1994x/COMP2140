@@ -6,13 +6,13 @@ import java.util.Random;
  * COMP 2140   SECTION A01
  * INSTRUCTOR    Cuneyt Akcora
  * Assignment           2
- * @author       your name, your student number
- * @version      date of completion
+ * @author       Ngoc Pham, 7891063
+ * @version      March 10, 2021
  *
  * PURPOSE: To implement Link list merge, fix and conversion methods.
  */
 
-public class Assignment2
+public class A2PhamNgoc
 {
 
   public static void main(String[] args )
@@ -70,7 +70,7 @@ public class Assignment2
 
     list1.reset();
     long t1 = System.nanoTime();
-    int runs = 1000000;
+    int runs = 1000000; //1000000
     for(int i = 0; i< runs; i++){
       insertValue(list1,i);
     }
@@ -172,11 +172,25 @@ public class Assignment2
  *      last size is: arr.size = 817363, newArray.size = 1226044
  *
  * 2. In value insertion to the array, how many array elements are left unused after the very last insertion? This is the memory cost of using arrays.
- *      We have 1000000 runs means 1000000 elements in the array, array length is 1000000.
+ *      We have 1000000 runs means 1000000 elements in the array, array length's supposed to be 1000000.
  *      However, the latest newArray.size shows 1226044 in length.
  *      Therefore, the number of unused elements is:  1226044 - 1000000 = 226044 unused elements
  *
  * 3. When is it useful to store data in arrays vs linked lists?
+ *      (trade off: time and space/memory)
  *
+ *      Store data in Linked list: (time: not too good, space: good)
+ *        when data structure size requires to be dynamic,
+ *        and ease of insertion or deletion (ordered list: student ID, etc)
+ *      Drawbacks of Linked list:
+ *        additional memory space to store next node pointer on each element of the list.
+ *        no random access allowed (inconvenient),
+ *
+ *      Store data in Array: (time: ~good, space: bad)
+ *        array is fixed size data structure - use array when size's known, or else has to change size and copy elements (risk of overwrite other data),
+ *        array can randomly access element, faster than linked list in some operations - use array when requires fast access
+ *      Drawbacks of Array:
+ *        insertion or deletion is expensive due to shifting required,
+ *        sometimes not all allocated space in array is used/reached (waste space, impractical)
  *
  **/

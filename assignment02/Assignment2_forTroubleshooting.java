@@ -54,6 +54,8 @@ public class Assignment2
     System.out.println("List1 is in order: "+ list1.isSorted());
     System.out.println("List2 is in order: "+ list2.isSorted());
     System.out.println("Type of List1 is Circular:"+list1.isCircular());
+    System.out.println();
+
 
     list1.convertCircularToOrdinary();
     System.out.println("Type of List1 is Ordinary:"+list1.isOrdinary());
@@ -63,6 +65,9 @@ public class Assignment2
     System.out.println("Odd nodes are deleted:"+list1.getSize()+" nodes remain");
     String l1After = list1.printListOrdinary();
     System.out.println(l1After + "after delete odd, ordinary");
+    System.out.println();
+
+
     list1.convertOrdinaryToCircular();
     String l1Test3 = list1.printListCircular();
     System.out.println(l1Test3 + "converted to circular");
@@ -74,6 +79,10 @@ public class Assignment2
     System.out.println("List1 has dummies:"+list1.hasDummies());
     String l1After1 = list1.printListOrdinary();
     System.out.println(l1After1 + "after adding dummies, ordinary");
+    System.out.println();
+
+
+
     list1.reset();//back to a circular list
     int[] arr = new int[size];
 
@@ -85,14 +94,16 @@ public class Assignment2
     String l1Test5 = list1.printListCircular();
     System.out.println(l1Test5 + "test cicular");
     long secondsArray = testInsertion(size, arr);
-    for(int i=0; i<arr.length;i++)
-      System.out.println(arr[i] + " ");
-    System.out.println("test array");
+    System.out.println(Arrays.toString(arr));
+    System.out.println("test array" + "test array");
     System.out.println("Insertions take "+secondsArray+" (array) "+(secondsList)+"(list) nsecs");
+    System.out.println();
+
+
 
     list1.reset();
     long t1 = System.nanoTime();
-    int runs = 10; //1000000
+    int runs = 20; //1000000
     for(int i = 0; i< runs; i++){
       insertValue(list1,i);
     }
@@ -102,6 +113,7 @@ public class Assignment2
     System.out.println("Linked list new values take "+(t1)+" nsecs");
     arr = new int[size];
 
+
     //insertvalue is overloaded.
     t1= System.nanoTime();
     for(int i = 0; i< runs; i++){
@@ -110,6 +122,9 @@ public class Assignment2
     t1 = System.nanoTime()-t1;
     System.out.println(Arrays.toString(arr) + "test array");
     System.out.println("Array new values take "+(t1)+" nsecs");
+    System.out.println();
+
+
 
 
     //corrupt the linked list at one position
