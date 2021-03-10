@@ -6,7 +6,7 @@ import java.util.Random;
  * COMP 2140   SECTION A01
  * INSTRUCTOR    Cuneyt Akcora
  * Assignment           2
- * @author       Ngoc Pham, 7891063
+ * @author       your name, your student number
  * @version      date of completion
  *
  * PURPOSE: To implement Link list merge, fix and conversion methods.
@@ -22,7 +22,6 @@ public class Assignment2
     int list1Size = Integer.parseInt(args[0]);//1500;
     int list2Size = Integer.parseInt(args[1]);//1300;
 
-
     Random r1 = new Random();
     LinkedList list1 = new LinkedList();
     for(int i = 0; i< list1Size; i++){
@@ -36,32 +35,25 @@ public class Assignment2
     }
     list1.quickSort();
     list2.quickSort();
-//    String s1 = list1.printList();
-//    System.out.println(s1);
-//    String s2= list2.printList();
-//    System.out.println(s2);
 
-//    System.out.println( "\nCOMP 2140 Assignment 2 linked list questions" );
-//    System.out.println( "\nCurrently both List1 and List2 are circular." );
-//    System.out.println( "\nWe insert nodes or values to the circular version only." );
-//    System.out.println( "\nOtherwise we would need to rewrite the insert function." );
+    System.out.println( "\nCOMP 2140 Assignment 2 linked list questions" );
+    System.out.println( "\nCurrently both List1 and List2 are circular." );
+    System.out.println( "\nWe insert nodes or values to the circular version only." );
+    System.out.println( "\nOtherwise we would need to rewrite the insert function." );
     list1.add(list2);
     int size = list1Size + list2Size;
     System.out.println("List1 is expanded: "+(list1.getSize()== size));
     System.out.println("List1 is in order: "+ list1.isSorted());
     System.out.println("List2 is in order: "+ list2.isSorted());
-    System.out.println("Type of List1 is Circular:"+list1.isCircular()+"\n");
-
+    System.out.println("Type of List1 is Circular:"+list1.isCircular());
 
     list1.convertCircularToOrdinary();
     System.out.println("Type of List1 is Ordinary:"+list1.isOrdinary());
     list1.deleteOddNodes();
     System.out.println("Odd nodes are deleted:"+list1.getSize()+" nodes remain");
     list1.convertOrdinaryToCircular();
-    System.out.println("Type of List1 is Circular:"+list1.isCircular() +"\n");
+    System.out.println("Type of List1 is Circular:"+list1.isCircular());
     list1.convertCircularToOrdinary();//again, in order to add dummies.
-//    list1.printList();
-//    System.out.printf("Final add " + s1+ "\n");
     list1.addDummies();
     System.out.println("List1 has dummies:"+list1.hasDummies());
 
@@ -111,58 +103,80 @@ public class Assignment2
 
 
 
-  /*
-  Insert new integers into the list (you can insert 1 every time) 'size' times, and return the time
-  it takes to complete these insertions.
-   */
+  /**
+   * Insert new integers into the list (you can insert 1 every time) 'size' times, and return the time
+   * it takes to complete these insertions.
+   **/
   private static long testInsertion(int size, LinkedList list1) {
     long nsecs=0;
     //write your code here
+    long startTime = System.nanoTime();
+    for(int iteration = 0; iteration < size; iteration++ )
+      list1.insertValue(1);
+    long endTime = System.nanoTime();
+
+    nsecs = endTime - startTime;
     return nsecs;
   }
 
-  /*
-  Insert new integers into the array (you can insert 1 every time) 'size' times, and return the time
-  it takes to complete these insertions.
-   */
+  /**
+   * Insert new integers into the array (you can insert 1 every time) 'size' times, and return the time
+   * it takes to complete these insertions.
+   **/
   private static long testInsertion(int size, int[] arr) {
     long nsecs=0;
     //write your code here
+    long startTime = System.nanoTime();
+    for(int iteration = 0; iteration < size; iteration++ )
+      arr[iteration]=1;
+    long endTime = System.nanoTime();
+
+    nsecs = endTime - startTime;
     return nsecs;
   }
-  /*
-    insertValue: insert the given value into the array. If the array size is exceeded,
-    you must create a new array (1.5 size of the current array, if arr size is 100,
-    create a new arr for 150 values) and copy the old array into the new array.
-    Afterwards, insert the new item value to the new array
-     */
+  /**
+   * insertValue: insert the given value into the array. If the array size is exceeded,
+   * you must create a new array (1.5 size of the current array, if arr size is 100,
+   * create a new arr for 150 values) and copy the old array into the new array.
+   * Afterwards, insert the new item value to the new array
+     **/
   private static int[] insertValue(int[]arr, int i, int index) {
     //write your code here
     //everytime you create a new array, printout a log with arr.size and newarray.size
+    if(index < arr.length) {
+      arr[index] = i;
+    }
+    else {
+      int[] newArray = new int[(int) (arr.length*1.5)];
+      System.arraycopy(arr,0,newArray,0,arr.length);
+      System.out.println("arr.size = " +arr.length+ ", newArray.size = " +newArray.length);
+      newArray[index] = i;
+      arr = newArray; //switch arr pointer to newArray pointer on the heap
+    }
     return arr;
   }
-  /*
-    insertValue: insert the given value into the link list. We could use the list.insert()
-    but the goal of this exercise is to show the dynamic nature of lists.
-     */
+  /**
+   * insertValue: insert the given value into the link list. We could use the list.insert()
+   * but the goal of this exercise is to show the dynamic nature of lists.
+     **/
   private static void insertValue(LinkedList list1, int i) {
-
+    list1.insertValue(i);
   }
 
 } // end class Assignment2
 
 
-/**
- REPORT:
-
- 1. In value insertion to the array, how many times did your code create a new array?
-
-
- 2. In value insertion to the array, how many array elements are left unused after the very last insertion?
-    This is the memory cost of using arrays.
-
-
- 3. When is it useful to store data in arrays vs linked lists?
-
-
+/** REPORT **
+ * 1. In value insertion to the array, how many times did your code create a new array?
+ *      15 times.
+ *      last size is: arr.size = 817363, newArray.size = 1226044
+ *
+ * 2. In value insertion to the array, how many array elements are left unused after the very last insertion? This is the memory cost of using arrays.
+ *      We have 1000000 runs means 1000000 elements in the array, array length is 1000000.
+ *      However, the latest newArray.size shows 1226044 in length.
+ *      Therefore, the number of unused elements is:  1226044 - 1000000 = 226044 unused elements
+ *
+ * 3. When is it useful to store data in arrays vs linked lists?
+ *
+ *
  **/

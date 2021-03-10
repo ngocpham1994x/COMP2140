@@ -92,32 +92,67 @@ public class LinkedList
         }
         nodeCount++;
     }
-    /*
-    corrupt: expects an ordinary linked list with a null pointer in the last node.
-    The latest inserted node sits at index 0.
-    Take the last node in the linked list and change its pointer to the node at the given index.
-    return the value of the corruption index.
-     */
+    /**
+     * corrupt: expects an ordinary linked list with a null pointer in the last node.
+     * The latest inserted node sits at index 0.
+     * Take the last node in the linked list and change its pointer to the node at the given index.
+     * return the value of the corruption index.
+     **/
     public int corrupt(int index) {
         int valOfCorruptedNode=Integer.MIN_VALUE;
         //write your code here
+        Node curr = last;  //top node in ordinary linked list
+        Node indexNode = last;
+        int count = 0;
+
+        while (count < index) {
+            indexNode = indexNode.next; //stop at index
+            count++;
+        }
+        valOfCorruptedNode = indexNode.item;
+
+        while(curr.next != null)
+            curr = curr.next;   //move forward in ordinary list, stop at actual last node
+
+
+        //below commented lines are for troubleshooting, printing out the corrupted loop
+//        last = curr; //from ordinary linked list with "last" pointer at top, to circular linked list with "last" pointer at actual last node
+//        last.next = indexNode;  //turn the list to circular linked list
+//        nodeCount = nodeCount - index + 1; //keeps track of node count in list
+
+        curr.next = indexNode;   //turn the list to circular linked list
+
         return valOfCorruptedNode;
     }//end of corrupt
 
-    /*
-    findCorruption: find if the linked list contains a loop.
-    Corruption is defined as the last node not having a null pointer, but instead pointing to a node in the linked
-    list as its forward node. A circular link is due to a corruption.
-    Do not use the sorted order of the linked list to detect the corruption.
-    A popular interview question, the solution to this question is known as the Floyd’s Cycle-Finding Algorithm.
-    A more difficult version would ask the index/value of the corruption.
-     */
+    /**
+     * findCorruption: find if the linked list contains a loop.
+     * Corruption is defined as the last node not having a null pointer, but instead pointing to a node in the linked
+     * list as its forward node. A circular link is due to a corruption.
+     * Do not use the sorted order of the linked list to detect the corruption.
+     * A popular interview question, the solution to this question is known as the Floyd’s Cycle-Finding Algorithm.
+     * A more difficult version would ask the index/value of the corruption.
+     **/
     public boolean findCorruption() {
         //write your code here
-
         // Do not store visited nodes to detect a loop.
         // Because if the linkedlist is big, you would store too much information.
-        return false;
+        boolean detectLoop = false;
+        Node slowPointer = last; //top in ordinary linked list
+        Node fastPointer = last; //top
+
+        while(fastPointer != null && !detectLoop) {
+            fastPointer = fastPointer.next;
+            if(fastPointer != null){
+                slowPointer = slowPointer.next;
+                fastPointer = fastPointer.next; //ahead two nodes as compared with slowPointer
+            }
+
+            if(fastPointer == slowPointer)
+                detectLoop = true;
+        }
+
+        return detectLoop;
     }//end of findCorruption
     /**
      * reset: Remove every node from the linked list.
@@ -125,16 +160,38 @@ public class LinkedList
      **/
     public void reset() {
         //write your code here.
-//        last = null;
-//        this.nodeCount = 0;
+        last = null;
+        this.nodeCount = 0;
     }// end of reset
 
-    /*
-    deleteOddNodes: delete nodes that have an odd item value.
-    Reassign pointers. Do not create a new linked list.
+    /**
+     * deleteOddNodes: delete nodes that have an odd item value.
+     * Reassign pointers. Do not create a new linked list.
      */
     public void deleteOddNodes() {
         //write your code here
+        Node prev = null;
+        Node curr = last; //top, ordinary list
+
+        while(curr != null){
+            if(curr.item % 2 != 0 && prev != null){  //odd is not first node
+                prev.next = curr.next;  //delete the odd node
+                curr = curr.next;
+                nodeCount--;
+            }
+            else if(curr.item % 2 != 0 && prev == null){  //odd is first node
+                curr = curr.next;
+                last = curr;
+                nodeCount--;
+            }
+            else{  //move forward in the ordinary list
+                prev = curr;
+                curr = curr.next;
+            }
+        }
+
+
+
     }//end of deleteOddNotes
     /**
      * hasDummies: checks if the linked list has 1) a dummy header with Integer.MIN_VALUE
@@ -145,7 +202,12 @@ public class LinkedList
         //write your code here
         //change return type yourself
         boolean hasDummies = true;
-        if (last.item != Integer.MAX_VALUE || last.next.item != Integer.MIN_VALUE)
+        Node top = last; // in ordinary list, last is top
+        Node curr = last; // at top
+
+        while (curr.next != null)  //"curr.next" instead of "curr != null"
+            curr = curr.next; //stop at actual last node in ordinary list
+        if (top.item != Integer.MIN_VALUE || curr.item != Integer.MAX_VALUE)
             hasDummies = false;
         return hasDummies;
     }//end of hasDummies
@@ -163,12 +225,12 @@ public class LinkedList
         int count = nodeCount;
 
 
-//        while (count > 0 && curr.next != null) {
-//            curr = curr.next;
-//            count--;
-//        }
-//        if( last == null || curr.next != null ) //if empty list or circular linked list
-//            isOrdinary = false;
+        while (count > 0 && curr.next != null) {
+            curr = curr.next;  //stop at last node
+            count--;
+        }
+        if( last == null || curr.next != null ) //if empty list or circular linked list
+            isOrdinary = false;
 
         return isOrdinary;
     }//end of isOrdinary
@@ -182,12 +244,11 @@ public class LinkedList
         //write your code here
         //change return type yourself
         boolean isCircular = true;
-//        Node top = last.next; //top
-        Node curr = last;
+        Node curr = last;  //actual last position in the circular list
         int count = nodeCount;
 
-        while( count > 0 && curr.next != null){
-            curr = curr.next;
+        while( count > 0 && curr.next != null){ //for more security, in case checking ordinary list
+            curr = curr.next; //stop at last node
             count--;
         } //end of while, pointer curr is sitting at last node
         if(last == null || curr.next == null )  //if empty list or ordinary linked list with next of last node points to null
@@ -201,11 +262,15 @@ public class LinkedList
      **/
     public void addDummies() {
         // write your code here
-        Node header = new Node(Integer.MIN_VALUE,last.next);
-        Node trailer = new Node(Integer.MAX_VALUE,header);
+        Node header = new Node(Integer.MIN_VALUE, last); //points to top for next
+        last = header; //last is top/header now
 
+        while(last.next != null)
+            last = last.next; //stop at last node
+        Node trailer = new Node(Integer.MAX_VALUE, null);
         last.next = trailer;
-        last = trailer;
+        last = header; //return the "last" pointer to top of Ordinary list, not trailer - because we are at Ordinary list
+
     }//end of addDummies
     /***********************************************
      *
@@ -219,10 +284,25 @@ public class LinkedList
     public void convertCircularToOrdinary() {
 
         //write your code here
-        if(last.next != null) { //for non-empty list
+        if(last.next != null) { //for non-empty circular list
             Node top = last.next; //temp node
-            last.next = null;
-            last = top;
+            last.next = null;     //change the end node to null
+            last = top;           //make last is top in the Ordinary list
+        }
+
+        //delete dummy head & dummy trailer nodes in ordinary list if there is any
+        //last = top now
+        if(last.item == Integer.MIN_VALUE)
+            last = last.next;
+
+        Node prev = null;
+        Node curr = last; //top
+        while(curr.next != null){
+            prev = curr;
+            curr = curr.next;  //move forward in list
+            if(curr.item == Integer.MAX_VALUE){
+                prev.next = null;
+            }
         }
 
     }//end of convertCircularToOrdinary
@@ -234,7 +314,7 @@ public class LinkedList
     public void convertOrdinaryToCircular() {
 
         //write your code here
-        //below method works for all extreme cases: empty list, one-element list
+        //below method works for all extreme cases: empty list, one-element ordinary list
         Node prev = null;
         Node top = last; //for circle back later
 
@@ -245,6 +325,22 @@ public class LinkedList
 
         last = prev;        //move one node backward
         last.next = top;    //circle back to original top
+
+        //below codes are for deleting dummy header and dummy trailer, if there are any
+        if(top.item == Integer.MIN_VALUE)
+            last.next = top.next;    //delete dummy header, circle back to original top
+
+        if(last.item == Integer.MAX_VALUE){
+            prev = last;
+            Node curr = top;
+            while (curr != last) {
+                prev = curr;
+                curr = curr.next;  //stop at last
+            }
+            prev.next = top; //delete dummy trailer, circle back to original top
+            last = prev;
+        }
+
 
     }//end of convertOrdinaryToCircular
 
@@ -258,38 +354,28 @@ public class LinkedList
      ************************************************/
     public void add(LinkedList list2) {
         //write your code here. List1 and list2 can contain duplicate values.
-        Node prev = last;
-        Node curr1 = last.next;
-        Node curr2 = list2.last.next;
-        int count1 = this.nodeCount;
+        Node prev = last;       //list1's prev
+        Node curr1 = last.next; //list1's top
+        Node curr2 = list2.last.next; //list2's top
         int count2 = list2.nodeCount;
 
         while (count2 > 0) {  //moving forward in list2
-//            //no element in list1
-//            if(count1 == 0){
-//                this.last = list2.last;
-//            }
-//
-//            //one element in list1
-//            if (count1 == 1){
-//                if(curr1.item >= curr2.item ){
-//                    this.insertValue(curr2.item); //insert front
-//                    curr2 = curr2.next;
-//                    count2--;
-//                    nodeCount++;
-//                }
-//                else {
-//                    Node newNode = new Node(curr2.item, curr1.next);
-//                    curr1.next = newNode;
-//                    curr2 = curr2.next;
-//                    count2--;
-//                    nodeCount++;
-//                }
-//            }
+            //no element in list1: add all list2 to list1
+            if(curr1 == null){
+                while(count2 > 0){
+                    Node newNode = new Node(curr2.item, curr1.next);
+                    curr1.next = newNode;
+                    prev = curr1;
+                    curr1 = newNode;
+                    curr2 = curr2.next;
+                    count2--;
+                    nodeCount++;
+                }
+            }
 
-            //more than 1 element in list1
+            //more than 1 element in list1: check value of curr2 with value of curr1 and value of curr1.next - to decide position to add in list1
             if ( (curr1.item <= curr2.item && curr2.item < curr1.next.item) || (curr1.item < curr2.item && curr2.item <= curr1.next.item) ) {
-                Node newNode = new Node(curr2.item, curr1.next);
+                Node newNode = new Node(curr2.item, curr1.next); //add curr2 after curr1 and update all pointers
                 curr1.next = newNode;
                 prev = curr1;
                 curr1 = newNode;
@@ -297,15 +383,15 @@ public class LinkedList
                 count2--;
                 nodeCount++;
             }
-            else if ( curr2.item < curr1.item){
-                Node newNode = new Node(curr2.item, curr1);
+            else if ( curr1.item > curr2.item){
+                Node newNode = new Node(curr2.item, curr1); //add curr2 before curr1 and update all pointers
                 prev.next = newNode;
-                prev = newNode;
+                prev = newNode; //since add newNode before curr1, curr1 pointer remains same position, only prev pointer changes
                 curr2 = curr2.next;
                 count2--;
                 nodeCount++;
             }
-            else {
+            else {  //move forward in circular list1
                 prev = curr1;
                 curr1 = curr1.next;
             }
@@ -314,7 +400,7 @@ public class LinkedList
 
 
         while(this.last.item <= this.last.next.item)
-            last = last.next;   //update this.last pointer
+            last = last.next;   //update this.last pointer, last is now the actual last node in circular list1
 
 
     }//end of add
@@ -531,22 +617,6 @@ public class LinkedList
         }
     } // end printList
 
-//    public String printList()
-//    {
-//        Node curr;
-//        String s = "[ ";
-//
-//        if (nodeCount > 0)
-//        {
-//            curr = last;
-//            do
-//            {
-//                s = s + curr.item + " ";
-//                curr = curr.next;
-//            } while ( curr != null);
-//        }
-//        return s;
-//    } // end printList
 
 
 } // end e1073 class LinkedList
