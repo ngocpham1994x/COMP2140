@@ -7,6 +7,7 @@
 // and Roberto Tamassia for the textbook Data Structures and Algorithms 
 // in Java (4th edition). 
 // The original code can be found at java.datastructures.net
+package com.company;
 
 public class EmptyStackQueueException extends RuntimeException {  
 

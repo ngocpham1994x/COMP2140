@@ -3,6 +3,7 @@
 // PURPOSE: This file implements one node in a linked list. Each node stores
 // an item of generic type <E> and a reference to the next node in the list.
 //
+package com.company;
 
 public class Node<E> {
 	protected E value;		// value stored at this node

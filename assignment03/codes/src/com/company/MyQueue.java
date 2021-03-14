@@ -1,5 +1,6 @@
 // PURPOSE: This file implements a queue using the generic type <E>. 
 //
+package com.company;
 
 public class MyQueue<E> {
 
@@ -20,6 +21,7 @@ public class MyQueue<E> {
 	// PURPOSE: Return true if the queue is empty.
 	public boolean isEmpty() { 
 		 //is empty
+		return false;
 	}
     
 	// ACTION METHODS
@@ -42,6 +44,7 @@ public class MyQueue<E> {
 	// it from the queue.
 	public E dequeue() throws EmptyStackQueueException {
 		 //write code here
+		return null;
 	}
 }
 

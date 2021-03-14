@@ -1,5 +1,6 @@
 // PURPOSE: This file implements a stack using the generic type <E>.
 //
+package com.company;
 
 public class MyStack<E> {
 

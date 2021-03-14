@@ -6,6 +6,8 @@
 // PURPOSE: This file shows an example of how to use the class MyQueue.
 //
 
+package com.company;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
