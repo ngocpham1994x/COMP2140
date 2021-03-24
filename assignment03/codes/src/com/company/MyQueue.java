@@ -1,4 +1,9 @@
-// PURPOSE: This file implements a queue using the generic type <E>. 
+// COMP 2140 SECTION A01
+// Assignment 3
+// @author Ngoc Pham, 7891063
+// @version March 23, 2021
+//
+// PURPOSE: This file implements a queue using the generic type <E>.
 //
 package com.company;
 
