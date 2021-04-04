@@ -4,11 +4,17 @@
  * ASSIGNMENT Assignment #4
  * @author  Ngoc Pham - 7891063
  * @version 01
- * Date of complete: April 6
+ * Date of complete: April 3
+ *
  * PURPOSE: reads in two text files and find incorrect spelling words.
  * words.txt is a dictionary which is used to verify texts in GeorgeEliot_SilasMarner.txt
+ * Use args[0] for words.txt, args[1] for GeorgeEliot_SilasMarner.txt
+ *
  * words.txt has some duplicated words which are not added to hash table if it already exists in the table.
  * An invalid-word table is created and printed in console if the words in GeorgeEliot_SilasMarner.txt file is not in dictionary.
+ * THE WORD is trimmed to have no apostrophe before and after. Examples: 's = s, s' = s, 's' = s
+ * "stephen's" is a word.
+ * A single apostrophe is not considered as a word.
  */
 
 package com.company;
@@ -83,7 +89,6 @@ public class A4PhamNgoc {
             int lineNum = 0;
             String line = null;
             String[] words = null;
-            boolean isInDictionary = false;
 
             //second way to read in line
             while( ( line = fileTwo.readLine() ) != null ){
@@ -93,16 +98,16 @@ public class A4PhamNgoc {
                     String theWord = words[i].toLowerCase();
                     if(theWord.length() > 0) {
                         //cases with apostrophe in the word: do trimming
-                        //case 1: single apostrophe as a single word '
+                        //case 1: single apostrophe ' is not considered a word
                         if( theWord.length() == 1 && theWord.charAt(0) == '\'' )
                             theWord = "";
-                        //case 2: 'abc
+                        //case 2: 'abc = abc
                         else if( theWord.charAt(0) == '\'' && (theWord.charAt(theWord.length()-1) != '\'') )
                             theWord = theWord.substring(1);
-                        //case 3: abc'
+                        //case 3: abc' = abc
                         else if( theWord.charAt(0) != '\'' && (theWord.charAt(theWord.length()-1) == '\'') )
                             theWord = theWord.substring(0, theWord.length()-1);
-                        //case 4: 'abc'
+                        //case 4: 'abc' = abc
                         else if( (theWord.charAt(0) == '\'') && (theWord.charAt(theWord.length()-1) == '\'') )
                             theWord = theWord.substring(1,theWord.length()-1); // substring(beginIndex,endIndex) where endIndex is not included
                     }
@@ -129,6 +134,8 @@ public class A4PhamNgoc {
 
     }
 }
+
+
 
 
 
@@ -264,6 +271,7 @@ class TableWithSeparateChaining {
      * toString()
      * Function: This method returns a String giving information about the
      * non-empty entries of the incorrect-word table
+     * CAN PRINT "hashIndex" TO output TO VERIFY THE LINKED LIST IN "hashArray"
      *****************************************************************/
     public String toString() {
         String output = "";
@@ -276,7 +284,7 @@ class TableWithSeparateChaining {
 
                 curr = hashArray[i];
                 while ( curr != null ) {
-                    output += "Index: " + hashIndex + " Invalid word \"" + curr.item + "\" found on lines " + curr.stack.toString() + "\n";
+                    output += "Invalid word \"" + curr.item + "\" found on lines " + curr.stack.toString() + "\n";
                     curr = curr.next;
                 } // end while
             } //end if
@@ -286,8 +294,6 @@ class TableWithSeparateChaining {
     } // end toString
 
 }
-
-
 
 
 
