@@ -15,6 +15,9 @@
  * THE WORD is trimmed to have no apostrophe before and after. Examples: 's = s, s' = s, 's' = s
  * "stephen's" is a word.
  * A single apostrophe is not considered as a word.
+ *
+ * Total words in dictionary: 47154
+ * Total incorrect words: 1327
  */
 
 package com.company;
