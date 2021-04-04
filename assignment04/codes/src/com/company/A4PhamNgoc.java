@@ -90,10 +90,26 @@ public class A4PhamNgoc {
                 words = line.trim().split( "[^a-zA-Z']+" ); // + means "match one or more of the previous expression"
                 lineNum++;
                 for(int i = 0; i < words.length; i++) {
-                    words[i] = words[i].toLowerCase();
-                    isInDictionary = dictionary.search(words[i]);
-                    if(words[i].length() != 0 && !isInDictionary)
-                        incorrectWordTable.insert(words[i],lineNum);
+                    String theWord = words[i].toLowerCase();
+                    if(theWord.length() > 0) {
+                        //cases with apostrophe in the word: do trimming
+                        //case 1: single apostrophe as a single word '
+                        if( theWord.length() == 1 && theWord.charAt(0) == '\'' )
+                            theWord = "";
+                        //case 2: 'abc
+                        else if( theWord.charAt(0) == '\'' && (theWord.charAt(theWord.length()-1) != '\'') )
+                            theWord = theWord.substring(1);
+                        //case 3: abc'
+                        else if( theWord.charAt(0) != '\'' && (theWord.charAt(theWord.length()-1) == '\'') )
+                            theWord = theWord.substring(0, theWord.length()-1);
+                        //case 4: 'abc'
+                        else if( (theWord.charAt(0) == '\'') && (theWord.charAt(theWord.length()-1) == '\'') )
+                            theWord = theWord.substring(1,theWord.length()-1); // substring(beginIndex,endIndex) where endIndex is not included
+                    }
+
+                    if( theWord.length() != 0 && !dictionary.search(theWord) )
+                        incorrectWordTable.insert(theWord,lineNum);
+
                 }
             }
 
@@ -260,7 +276,7 @@ class TableWithSeparateChaining {
 
                 curr = hashArray[i];
                 while ( curr != null ) {
-                    output += "Invalid word: index " + hashIndex + " is \"" + curr.item + "\" found on lines " + curr.stack.toString() + "\n";
+                    output += "Index: " + hashIndex + " Invalid word \"" + curr.item + "\" found on lines " + curr.stack.toString() + "\n";
                     curr = curr.next;
                 } // end while
             } //end if
