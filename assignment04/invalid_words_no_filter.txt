@@ -1,0 +1,1416 @@
+"C:\Program Files\Java\jdk-15.0.1\bin\java.exe" -javaagent:C:\Users\ngocp\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\203.7148.57\lib\idea_rt.jar=54818:C:\Users\ngocp\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\203.7148.57\bin -Dfile.encoding=UTF-8 -classpath C:\Users\ngocp\OneDrive\Documents\Github\COMP2140\assignment04\codes\out\production\codes com.company.A4PhamNgoc words.txt GeorgeEliot_SilasMarner.txt
+Duplicated words in dictionary: 
+
+Duplicates are not allowed: "itcorp"
+Duplicates are not allowed: "itcorp's"
+Duplicates are not allowed: "unix's"
+Duplicates are not allowed: "latex"
+Duplicates are not allowed: "latex's"
+Duplicates are not allowed: "news"
+
+There are total of 1397 invalid words: 
+
+Index: 0 Invalid word "lammeter" found on lines 7031 7014 6014 5908 5799 4670 4656 4461 4418 3971 3904 3902 3896 3736 3419 2789 2745 1925 1888 1877 1835 1816 1803 1463 1154 1134 1123 1104 1077 997 853 844 838 
+Index: 7 Invalid word "wilfully" found on lines 6029 
+Index: 13 Invalid word "tassels" found on lines 6883 
+Index: 19 Invalid word "johnston" found on lines 7797 7788 7779 7691 
+Index: 19 Invalid word "'spasmodic'" found on lines 7514 
+Index: 19 Invalid word "wilberforce" found on lines 7409 
+Index: 20 Invalid word "marvellously" found on lines 7533 
+Index: 25 Invalid word "vindication" found on lines 5972 3622 
+Index: 29 Invalid word "geology" found on lines 7873 7865 7864 7863 7858 7848 7840 7838 7828 7823 7814 7176 
+Index: 29 Invalid word "roger" found on lines 3912 
+Index: 30 Invalid word "'rainbow" found on lines 1635 
+Index: 31 Invalid word "tudor" found on lines 7605 
+Index: 32 Invalid word "garibaldi" found on lines 7299 7295 
+Index: 33 Invalid word "wedlock" found on lines 1858 
+Index: 34 Invalid word "nancy's" found on lines 6549 6335 6280 6254 6142 6120 6104 6089 6025 6022 5975 5964 5943 5937 5805 5245 4051 4047 4040 3829 3770 3671 3541 3527 3507 3503 3448 3425 3378 
+Index: 35 Invalid word "provost" found on lines 7349 
+Index: 35 Invalid word "penitence" found on lines 6554 
+Index: 36 Invalid word "cols" found on lines 7678 
+Index: 36 Invalid word "download" found on lines 14 
+Index: 37 Invalid word "hornpipe" found on lines 4407 4396 4379 
+Index: 37 Invalid word "condescension" found on lines 3344 1610 1605 
+Index: 39 Invalid word "'" found on lines 7855 7638 7268 7053 5742 5742 5683 5682 5543 5078 5078 4827 4826 4036 4036 3907 3905 3886 3633 3257 2600 2462 1998 1912 1873 1871 1862 1858 1855 1843 1841 1840 1752 1749 1718 1635 46 
+Index: 44 Invalid word "pollok" found on lines 7563 
+Index: 44 Invalid word "neighbouring" found on lines 251 
+Index: 45 Invalid word "apoplexy" found on lines 789 
+Index: 47 Invalid word "pettitoes" found on lines 2935 2921 
+Index: 48 Invalid word "rightfuller" found on lines 4002 
+Index: 50 Invalid word "variegated" found on lines 3930 
+Index: 54 Invalid word "lax" found on lines 3462 
+Index: 57 Invalid word "caird" found on lines 7557 7552 
+Index: 63 Invalid word "druv" found on lines 1637 
+Index: 68 Invalid word "innicent" found on lines 6855 5510 3630 2148 2146 
+Index: 74 Invalid word "petite" found on lines 7249 
+Index: 76 Invalid word "'red" found on lines 1749 
+Index: 77 Invalid word "theirselves" found on lines 3995 
+Index: 81 Invalid word "loam" found on lines 590 
+Index: 85 Invalid word "burke" found on lines 7408 
+Index: 87 Invalid word "horace" found on lines 7262 
+Index: 87 Invalid word "tise" found on lines 1721 
+Index: 88 Invalid word "betimes" found on lines 4757 
+Index: 95 Invalid word "proofreading" found on lines 31 
+Index: 96 Invalid word "criticise" found on lines 3531 
+Index: 98 Invalid word "b" found on lines 7750 7732 7705 7537 7416 7268 7211 7197 
+Index: 99 Invalid word "c" found on lines 7788 7781 7779 7744 7705 7698 7683 7673 7476 7464 7420 7229 7212 7211 7197 7127 
+Index: 100 Invalid word "d" found on lines 7923 7908 7816 7799 7771 7752 7745 7732 7732 7717 7716 7714 7713 7711 7710 7709 7705 7703 7698 7693 7684 7683 7673 7656 7653 7653 7620 7596 7588 7588 7581 7581 7581 7559 7557 7557 7553 7553 7552 7552 7545 7539 7525 7491 7479 7476 7472 7465 7452 7439 7430 7426 7424 7420 7378 7375 7375 7369 7291 7268 7235 7147 7127 
+Index: 101 Invalid word "e" found on lines 7890 7883 7788 7779 7691 7537 7537 7416 7187 
+Index: 101 Invalid word "pgdpcanada" found on lines 32 
+Index: 102 Invalid word "loch" found on lines 7890 7883 7849 7825 7815 7788 7779 7779 7750 7691 7537 7468 
+Index: 102 Invalid word "f" found on lines 7353 7187 7175 7114 
+Index: 103 Invalid word "g" found on lines 7849 7825 7815 7798 7779 7353 7175 7114 
+Index: 104 Invalid word "h" found on lines 7803 7798 7732 3109 
+Index: 106 Invalid word "j" found on lines 7375 7162 
+Index: 107 Invalid word "jingo" found on lines 3998 
+Index: 107 Invalid word "primises" found on lines 2184 
+Index: 108 Invalid word "l" found on lines 7732 7698 7683 7673 7581 7581 7476 7420 7127 
+Index: 109 Invalid word "m" found on lines 7734 7563 7537 7450 7437 7430 7291 
+Index: 110 Invalid word "teetotum" found on lines 7298 7254 
+Index: 110 Invalid word "n" found on lines 7197 
+Index: 111 Invalid word "o" found on lines 7084 6921 6906 6467 6318 6258 6175 5925 5902 5894 5785 5675 5667 5656 5500 5451 5378 5368 4642 4514 4065 3754 3652 3364 3272 3232 3213 3175 3103 1234 1227 900 
+Index: 113 Invalid word "paston" found on lines 6963 6958 6855 6854 
+Index: 114 Invalid word "r" found on lines 7916 7890 7889 7883 7788 7779 7779 7691 7537 7408 7298 7219 7197 7188 7187 7114 
+Index: 115 Invalid word "s" found on lines 7933 7923 7918 7917 7908 7902 7892 7890 7883 7850 7849 7826 7825 7816 7815 7804 7799 7793 7788 7779 7779 7771 7765 7764 7763 7762 7761 7760 7757 7752 7745 7739 7738 7737 7717 7715 7711 7708 7699 7693 7693 7691 7684 7678 7678 7676 7656 7636 7620 7614 7597 7596 7595 7594 7593 7590 7585 7571 7565 7559 7545 7539 7537 7530 7525 7510 7496 7491 7479 7472 7465 7452 7439 7433 7427 7426 7425 7424 7421 7417 7412 7401 7400 7399 7398 7384 7378 7369 7364 7353 7351 7349 7347 7345 7342 7339 7337 7335 7331 7329 7326 7323 7321 7318 7316 7313 7310 7304 7300 7292 7234 7230 7222 7213 7205 7199 7187 7175 7154 7114 7105 3674 3663 3485 3442 3109 
+Index: 115 Invalid word "atween" found on lines 1698 1695 
+Index: 115 Invalid word "lammeters" found on lines 845 
+Index: 118 Invalid word "quiverings" found on lines 7607 7606 7258 4321 
+Index: 118 Invalid word "v" found on lines 1437 
+Index: 119 Invalid word "w" found on lines 7576 7476 7263 
+Index: 120 Invalid word "x" found on lines 7278 2819 
+Index: 120 Invalid word "chary" found on lines 145 
+Index: 121 Invalid word "footmarks" found on lines 2253 2173 
+Index: 124 Invalid word "blackwood's" found on lines 7451 7438 
+Index: 126 Invalid word "printer's" found on lines 7391 
+Index: 127 Invalid word "to's" found on lines 1960 
+Index: 129 Invalid word "groich" found on lines 7269 
+Index: 130 Invalid word "practise" found on lines 1718 
+Index: 133 Invalid word "down'ard" found on lines 4012 3975 
+Index: 135 Invalid word "horseblock" found on lines 3409 
+Index: 148 Invalid word "sobbing" found on lines 5044 
+Index: 151 Invalid word "recognised" found on lines 4658 350 
+Index: 153 Invalid word "effaced" found on lines 5913 
+Index: 153 Invalid word "thyme" found on lines 5336 
+Index: 155 Invalid word "o'er" found on lines 5764 1927 
+Index: 157 Invalid word "gibraltar" found on lines 7242 
+Index: 157 Invalid word "multitudinous" found on lines 3921 785 
+Index: 158 Invalid word "coloured" found on lines 3616 842 
+Index: 160 Invalid word "enfeebled" found on lines 5270 4951 
+Index: 163 Invalid word "william's" found on lines 338 335 
+Index: 164 Invalid word "piquant" found on lines 1756 
+Index: 166 Invalid word "colouring" found on lines 6021 3641 
+Index: 167 Invalid word "reliques" found on lines 7501 
+Index: 167 Invalid word "on'y" found on lines 2631 2461 2450 2447 2444 2440 2430 2420 2410 2400 1876 
+Index: 167 Invalid word "bryce" found on lines 1258 1250 1247 1232 1224 1221 1052 938 
+Index: 173 Invalid word "scholard" found on lines 4880 
+Index: 174 Invalid word "wheelwright's" found on lines 7946 
+Index: 180 Invalid word "midge" found on lines 7320 
+Index: 182 Invalid word "rectitude" found on lines 6820 5942 
+Index: 186 Invalid word "gentlemen's" found on lines 4184 
+Index: 187 Invalid word "haft" found on lines 4882 
+Index: 187 Invalid word "suavity" found on lines 3475 
+Index: 188 Invalid word "lettres" found on lines 7477 
+Index: 189 Invalid word "trebizond" found on lines 7714 7712 
+Index: 194 Invalid word "'over" found on lines 3905 
+Index: 200 Invalid word "home's" found on lines 6962 
+Index: 204 Invalid word "burnett" found on lines 7374 
+Index: 208 Invalid word "jinny" found on lines 2335 
+Index: 208 Invalid word "unremittingly" found on lines 550 
+Index: 210 Invalid word "bramcote" found on lines 7964 7396 1032 
+Index: 210 Invalid word "eliot" found on lines 57 18 
+Index: 211 Invalid word "vain" found on lines 5961 5029 2134 1549 
+Index: 211 Invalid word "unpropitious" found on lines 540 
+Index: 220 Invalid word "matrons" found on lines 3927 
+Index: 228 Invalid word "poohed" found on lines 2270 
+Index: 230 Invalid word "lor" found on lines 2497 2493 2472 2248 1926 1904 1850 
+Index: 230 Invalid word "dunstan's" found on lines 1495 1402 1399 1387 1212 1199 1118 
+Index: 239 Invalid word "pauper's" found on lines 4685 
+Index: 242 Invalid word "narrated" found on lines 4685 3533 
+Index: 242 Invalid word "kench" found on lines 2179 
+Index: 247 Invalid word "'down" found on lines 2462 
+Index: 250 Invalid word "property's" found on lines 2652 
+Index: 251 Invalid word "gentilities" found on lines 2810 
+Index: 259 Invalid word "irascibility" found on lines 3331 
+Index: 262 Invalid word "tedman's" found on lines 3547 
+Index: 266 Invalid word "lipped" found on lines 4422 
+Index: 268 Invalid word "colquhoun" found on lines 7471 
+Index: 277 Invalid word "sneeringly" found on lines 891 
+Index: 284 Invalid word "carteret" found on lines 7408 
+Index: 285 Invalid word "aird" found on lines 7432 7303 
+Index: 287 Invalid word "travelled" found on lines 1404 
+Index: 288 Invalid word "back'ard" found on lines 3740 
+Index: 289 Invalid word "parlour" found on lines 6741 5808 5803 4652 4393 4062 3921 3739 3684 3683 3675 3663 2550 1610 1605 1603 857 821 818 
+Index: 298 Invalid word "sightedness" found on lines 2869 
+Index: 298 Invalid word "colloquies" found on lines 326 
+Index: 301 Invalid word "traveller" found on lines 1586 
+Index: 305 Invalid word "undrowned" found on lines 178 
+Index: 307 Invalid word "sigismund" found on lines 7272 
+Index: 307 Invalid word "lytherly" found on lines 3544 3458 
+Index: 311 Invalid word "pleasanter" found on lines 4021 
+Index: 313 Invalid word "dobbin's" found on lines 3401 
+Index: 320 Invalid word "sebastopol" found on lines 7221 
+Index: 322 Invalid word "squatted" found on lines 4240 
+Index: 323 Invalid word "loth" found on lines 2745 
+Index: 323 Invalid word "disinclined" found on lines 2227 993 
+Index: 327 Invalid word "london" found on lines 7722 3328 74 24 22 
+Index: 333 Invalid word "egypt" found on lines 7107 
+Index: 335 Invalid word "scottish" found on lines 7503 7475 7315 7313 7310 
+Index: 335 Invalid word "collogue" found on lines 2649 
+Index: 341 Invalid word "flitting" found on lines 3775 
+Index: 344 Invalid word "greatcoat" found on lines 4238 3393 
+Index: 347 Invalid word "spasmodic" found on lines 7509 
+Index: 350 Invalid word "sophia" found on lines 7611 
+Index: 350 Invalid word "fawkes" found on lines 5554 5537 
+Index: 350 Invalid word "implacable" found on lines 2506 2503 
+Index: 351 Invalid word "nattiness" found on lines 3519 
+Index: 355 Invalid word "twopence" found on lines 3148 
+Index: 358 Invalid word "shally" found on lines 2729 
+Index: 358 Invalid word "pulsation" found on lines 690 
+Index: 364 Invalid word "cussing" found on lines 2965 2965 
+Index: 367 Invalid word "aaron" found on lines 7009 6862 6862 6793 6365 5759 5751 5742 5741 5734 5713 5659 5651 5644 5376 5371 5365 5362 5358 5350 5339 5326 5323 5317 5312 4975 4896 4826 4715 3993 3989 3980 3281 3270 3255 3235 3230 3227 3213 3209 3206 3112 3109 3101 3099 3093 3061 3059 1750 
+Index: 375 Invalid word "pigtail" found on lines 3744 
+Index: 378 Invalid word "penal" found on lines 4985 
+Index: 382 Invalid word "unbelief" found on lines 474 
+Index: 383 Invalid word "latimer" found on lines 7652 
+Index: 387 Invalid word "tchuh" found on lines 4023 2166 
+Index: 389 Invalid word "importunate" found on lines 3358 
+Index: 389 Invalid word "rovier" found on lines 1749 
+Index: 394 Invalid word "cromleck" found on lines 1240 
+Index: 397 Invalid word "jennings" found on lines 1304 
+Index: 398 Invalid word "partic'larest" found on lines 1842 
+Index: 399 Invalid word "explicable" found on lines 3332 
+Index: 399 Invalid word "'ticing" found on lines 1022 
+Index: 400 Invalid word "grecian" found on lines 7725 
+Index: 401 Invalid word "jovial" found on lines 3732 3722 
+Index: 402 Invalid word "albion" found on lines 7518 
+Index: 402 Invalid word "ringlets" found on lines 5276 
+Index: 402 Invalid word "yarbs" found on lines 2956 
+Index: 406 Invalid word "warrens" found on lines 5916 5802 5203 1925 1924 1901 1893 1808 1700 
+Index: 414 Invalid word "unmeritorious" found on lines 4668 
+Index: 415 Invalid word "ottoman" found on lines 7955 7716 
+Index: 420 Invalid word "demerit" found on lines 6722 
+Index: 420 Invalid word "rheumatics" found on lines 632 
+Index: 422 Invalid word "worreted" found on lines 1874 1862 
+Index: 424 Invalid word "theodore" found on lines 7529 
+Index: 424 Invalid word "swopped" found on lines 1231 1227 
+Index: 425 Invalid word "bothwell" found on lines 7489 
+Index: 425 Invalid word "londonderry" found on lines 7123 
+Index: 430 Invalid word "diffidence" found on lines 3322 
+Index: 435 Invalid word "addled" found on lines 3656 
+Index: 437 Invalid word "colic" found on lines 3814 
+Index: 441 Invalid word "aytoun's" found on lines 7481 
+Index: 446 Invalid word "thriven" found on lines 6043 
+Index: 446 Invalid word "fooleries" found on lines 2700 2700 2696 
+Index: 451 Invalid word "spilt" found on lines 4800 
+Index: 454 Invalid word "'the" found on lines 3886 3876 3633 
+Index: 456 Invalid word "there'd" found on lines 6398 6329 1738 
+Index: 457 Invalid word "misdemeanour" found on lines 5026 
+Index: 460 Invalid word "'cuteness" found on lines 2210 
+Index: 463 Invalid word "oates" found on lines 2335 645 624 601 240 
+Index: 464 Invalid word "humoured" found on lines 3866 1652 1171 
+Index: 469 Invalid word "doyle" found on lines 7523 
+Index: 472 Invalid word "usened" found on lines 6926 
+Index: 475 Invalid word "nic" found on lines 7710 
+Index: 475 Invalid word "halifax" found on lines 7407 
+Index: 480 Invalid word "jigging" found on lines 4643 
+Index: 481 Invalid word "edmondstoune" found on lines 7476 
+Index: 488 Invalid word "judgment" found on lines 6603 3463 2943 464 
+Index: 492 Invalid word "overwise" found on lines 7942 234 125 
+Index: 493 Invalid word "vanderdecken's" found on lines 7240 
+Index: 493 Invalid word "something's" found on lines 6171 
+Index: 497 Invalid word "stephens" found on lines 7890 7883 7187 
+Index: 497 Invalid word "silas's" found on lines 7078 6896 6671 6653 6581 6522 6378 6080 5615 5482 5369 5080 4967 4961 4880 4624 4363 4349 4306 4238 3195 3172 3019 2917 2874 2355 2256 1568 1519 1485 556 402 336 136 
+Index: 498 Invalid word "colly" found on lines 4977 
+Index: 500 Invalid word "kimble" found on lines 5460 4625 4585 4566 4517 4514 4494 4489 4484 4481 4469 4450 4382 3866 3859 3832 3826 3824 3818 3801 3789 3784 3782 3782 3774 3771 3445 3443 3326 2966 2839 2608 929 609 
+Index: 501 Invalid word "whativer" found on lines 3103 
+Index: 506 Invalid word "ploughboy" found on lines 3886 
+Index: 508 Invalid word "whither" found on lines 2835 
+Index: 515 Invalid word "malignity" found on lines 2497 
+Index: 517 Invalid word "primness" found on lines 3478 3475 
+Index: 518 Invalid word "dubiety" found on lines 3065 
+Index: 521 Invalid word "matthew" found on lines 7341 
+Index: 521 Invalid word "soliloquises" found on lines 3753 
+Index: 522 Invalid word "unenclosed" found on lines 5018 1195 
+Index: 524 Invalid word "oldish" found on lines 3973 
+Index: 528 Invalid word "michaelmas" found on lines 5852 
+Index: 530 Invalid word "phial" found on lines 4201 
+Index: 531 Invalid word "wright" found on lines 1722 
+Index: 534 Invalid word "laburnums" found on lines 6988 
+Index: 536 Invalid word "undulled" found on lines 5240 
+Index: 537 Invalid word "etchings" found on lines 7641 
+Index: 538 Invalid word "pictur" found on lines 3220 
+Index: 540 Invalid word "jortin's" found on lines 1237 
+Index: 545 Invalid word "blent" found on lines 5134 758 
+Index: 546 Invalid word "there'll" found on lines 5856 4981 937 
+Index: 549 Invalid word "clave" found on lines 5514 
+Index: 551 Invalid word "gout" found on lines 789 
+Index: 551 Invalid word "occult" found on lines 611 513 
+Index: 553 Invalid word "presentiment" found on lines 4322 1444 
+Index: 553 Invalid word "flog" found on lines 1039 
+Index: 553 Invalid word "oates's" found on lines 616 606 
+Index: 555 Invalid word "'i'm" found on lines 6586 
+Index: 556 Invalid word "upo'" found on lines 5508 4979 3152 1698 
+Index: 558 Invalid word "funereal" found on lines 7077 7017 6999 6538 6537 6532 6524 6519 6507 6498 6444 6423 6419 6416 5916 5683 5410 5254 5238 4396 4153 4001 3731 3686 3678 3426 3414 3405 3357 3049 3030 2370 2293 2239 2051 1906 1629 
+Index: 558 Invalid word "cass" found on lines 1607 1604 1589 1440 1326 1305 1202 1192 1171 1106 828 774 767 
+Index: 559 Invalid word "coulter" found on lines 622 
+Index: 560 Invalid word "sin'" found on lines 1937 
+Index: 564 Invalid word "hearting" found on lines 4043 
+Index: 565 Invalid word "'snaff" found on lines 4036 
+Index: 568 Invalid word "grimy" found on lines 4234 
+Index: 571 Invalid word "gazette" found on lines 7861 
+Index: 572 Invalid word "venetian" found on lines 7716 
+Index: 575 Invalid word "complacent" found on lines 3759 318 
+Index: 581 Invalid word "browne" found on lines 7162 
+Index: 582 Invalid word "seafield" found on lines 7930 
+Index: 582 Invalid word "'cliff's" found on lines 1937 
+Index: 582 Invalid word "whitsuntide" found on lines 839 
+Index: 583 Invalid word "burghs" found on lines 7252 
+Index: 584 Invalid word "unaccountable" found on lines 5106 1121 
+Index: 587 Invalid word "couplets" found on lines 516 
+Index: 589 Invalid word "mott's" found on lines 5721 
+Index: 591 Invalid word "field's" found on lines 3633 3629 3629 
+Index: 594 Invalid word "cupidity" found on lines 1403 1115 
+Index: 596 Invalid word "lyndsay" found on lines 7312 
+Index: 596 Invalid word "hornpipes" found on lines 4643 
+Index: 596 Invalid word "secrecy's" found on lines 967 
+Index: 597 Invalid word "neighbours" found on lines 7068 5464 5231 4927 4903 4265 3724 3474 3025 2971 2932 2923 2911 2905 2876 2824 2123 2113 1576 1503 830 805 759 681 646 607 595 258 236 130 
+Index: 600 Invalid word "morning's" found on lines 1166 
+Index: 601 Invalid word "fav'rite" found on lines 3876 
+Index: 606 Invalid word "versailles" found on lines 7644 
+Index: 606 Invalid word "behaviour" found on lines 6013 5383 3430 2246 
+Index: 610 Invalid word "brawny" found on lines 98 
+Index: 612 Invalid word "dulness" found on lines 6277 6277 6131 
+Index: 612 Invalid word "'i" found on lines 5741 5682 4826 1717 
+Index: 614 Invalid word "rheumatise" found on lines 1961 1959 
+Index: 615 Invalid word "toddle" found on lines 4343 
+Index: 616 Invalid word "'m" found on lines 6169 6166 
+Index: 621 Invalid word "neighbourhoods" found on lines 3779 
+Index: 622 Invalid word "'s" found on lines 7276 4405 4021 3396 2727 2713 2602 2245 1912 1892 1836 
+Index: 622 Invalid word "lammeter's" found on lines 1797 1699 1696 1680 1665 1474 
+Index: 622 Invalid word "draught" found on lines 1264 976 
+Index: 629 Invalid word "filberts" found on lines 5804 
+Index: 632 Invalid word "unowned" found on lines 6297 
+Index: 632 Invalid word "offal" found on lines 4026 
+Index: 632 Invalid word "casses" found on lines 2653 
+Index: 638 Invalid word "housewives" found on lines 252 
+Index: 639 Invalid word "royston" found on lines 6052 
+Index: 643 Invalid word "alex" found on lines 7788 7779 
+Index: 643 Invalid word "elizabeth" found on lines 7610 7245 
+Index: 643 Invalid word "oho" found on lines 943 
+Index: 644 Invalid word "incomings" found on lines 850 
+Index: 649 Invalid word "incitement" found on lines 5918 
+Index: 650 Invalid word "bandbox" found on lines 3653 3516 
+Index: 652 Invalid word "counterbalancing" found on lines 140 
+Index: 653 Invalid word "jupiter" found on lines 7574 
+Index: 655 Invalid word "pooh" found on lines 4571 4514 2270 2172 1871 
+Index: 665 Invalid word "wylie" found on lines 7347 
+Index: 665 Invalid word "haunters" found on lines 7280 
+Index: 668 Invalid word "pedlar's" found on lines 2822 2377 2359 2356 2335 2323 2303 
+Index: 668 Invalid word "malam" found on lines 2196 
+Index: 670 Invalid word "blighting" found on lines 6088 
+Index: 672 Invalid word "patronising" found on lines 3723 
+Index: 682 Invalid word "seedy" found on lines 6923 6474 5652 5356 5062 4864 4717 3925 
+Index: 682 Invalid word "'ull" found on lines 3578 3278 3192 2970 2181 1966 1955 
+Index: 683 Invalid word "goethe" found on lines 7528 
+Index: 683 Invalid word "daresay" found on lines 6175 3136 2774 2675 1891 1027 940 
+Index: 684 Invalid word "belike" found on lines 5770 
+Index: 684 Invalid word "html" found on lines 9 
+Index: 685 Invalid word "diocese" found on lines 7538 
+Index: 689 Invalid word "alison" found on lines 7698 7683 7673 7127 
+Index: 690 Invalid word "unfitting" found on lines 6697 1744 
+Index: 691 Invalid word "badajoz" found on lines 7508 
+Index: 692 Invalid word "minutes'" found on lines 1480 
+Index: 693 Invalid word "augured" found on lines 6248 
+Index: 694 Invalid word "rosemary" found on lines 5335 
+Index: 694 Invalid word "avowal" found on lines 2489 1119 
+Index: 695 Invalid word "dwelt" found on lines 5976 
+Index: 700 Invalid word "contrairy" found on lines 5571 4771 1855 1839 1662 
+Index: 701 Invalid word "mushed" found on lines 3007 2910 2127 
+Index: 705 Invalid word "knox" found on lines 7652 7593 
+Index: 705 Invalid word "trustening" found on lines 5577 
+Index: 707 Invalid word "benumbed" found on lines 4199 533 
+Index: 712 Invalid word "irreparable" found on lines 6123 
+Index: 713 Invalid word "carriers'" found on lines 6866 
+Index: 716 Invalid word "poulticing" found on lines 5526 
+Index: 719 Invalid word "insistance" found on lines 3839 
+Index: 719 Invalid word "charicter" found on lines 1926 
+Index: 721 Invalid word "tookey" found on lines 3002 2997 2282 2279 2274 1765 1760 1752 1741 1736 1728 
+Index: 723 Invalid word "favoured" found on lines 4992 1268 
+Index: 724 Invalid word "posy" found on lines 4000 
+Index: 724 Invalid word "taylor" found on lines 3786 
+Index: 726 Invalid word "unbent" found on lines 4399 4221 
+Index: 726 Invalid word "centre" found on lines 2092 
+Index: 727 Invalid word "impregnated" found on lines 2300 
+Index: 730 Invalid word "glenmutchkin" found on lines 7240 
+Index: 733 Invalid word "drowsily" found on lines 4204 
+Index: 737 Invalid word "percy's" found on lines 7501 
+Index: 737 Invalid word "petherick" found on lines 7114 
+Index: 741 Invalid word "jesus" found on lines 3247 
+Index: 744 Invalid word "neutralise" found on lines 2035 
+Index: 745 Invalid word "sensiblest" found on lines 2178 
+Index: 756 Invalid word "honourable" found on lines 2296 
+Index: 757 Invalid word "opy" found on lines 5061 5061 
+Index: 760 Invalid word "again'" found on lines 7051 5517 4879 2288 2147 
+Index: 763 Invalid word "fayder" found on lines 3989 
+Index: 764 Invalid word "pedlars" found on lines 2830 
+Index: 765 Invalid word "ferrier" found on lines 7756 7750 
+Index: 765 Invalid word "dunsey" found on lines 6789 6785 5198 5194 4661 4661 4026 3361 2695 2679 2674 2669 2664 2663 2658 2655 2654 2649 2648 2643 2629 2538 2537 2453 2433 2405 2240 1374 1327 1319 1307 1305 1260 1234 972 951 943 916 900 891 875 870 830 828 
+Index: 767 Invalid word "grandchildren" found on lines 7456 
+Index: 769 Invalid word "instalments" found on lines 1824 
+Index: 770 Invalid word "leonards" found on lines 7922 
+Index: 770 Invalid word "fleckered" found on lines 5799 
+Index: 771 Invalid word "hugh" found on lines 7964 41 19 
+Index: 772 Invalid word "undercurrent" found on lines 5710 
+Index: 779 Invalid word "http" found on lines 32 
+Index: 781 Invalid word "for'ards" found on lines 5536 
+Index: 786 Invalid word "priscilla" found on lines 7027 7014 6784 6227 6153 6019 5966 5932 5929 5902 5894 5883 5877 5873 5863 5846 5835 5832 5799 5258 4132 4128 4055 3808 3798 3795 3680 3669 3666 3652 3609 3600 3581 3571 3567 3560 3534 3486 3408 3406 1489 1463 
+Index: 790 Invalid word "oss" found on lines 3543 
+Index: 790 Invalid word "athanasian" found on lines 3313 
+Index: 795 Invalid word "chatham" found on lines 7408 
+Index: 798 Invalid word "macaulay" found on lines 7411 
+Index: 798 Invalid word "varmin" found on lines 2955 1767 
+Index: 799 Invalid word "nile" found on lines 7109 
+Index: 799 Invalid word "sorrel" found on lines 5028 
+Index: 800 Invalid word "farrier" found on lines 7063 2220 2212 2195 2187 2166 2083 2030 2006 1989 1969 1944 1777 1689 1679 1670 1664 1658 1655 1649 1646 
+Index: 801 Invalid word "sickroom" found on lines 3046 
+Index: 805 Invalid word "complacently" found on lines 3929 
+Index: 807 Invalid word "hanover" found on lines 7611 
+Index: 809 Invalid word "propped" found on lines 3704 861 722 
+Index: 814 Invalid word "molly" found on lines 4688 4200 4171 954 904 
+Index: 815 Invalid word "agoing" found on lines 7944 
+Index: 818 Invalid word "folks's" found on lines 4825 
+Index: 818 Invalid word "listless" found on lines 1084 
+Index: 822 Invalid word "odour" found on lines 3334 2914 
+Index: 823 Invalid word "luther" found on lines 7652 
+Index: 824 Invalid word "worrit" found on lines 5868 
+Index: 825 Invalid word "fulfilment" found on lines 1008 
+Index: 827 Invalid word "batherley" found on lines 4686 2434 2386 2243 1307 1298 1286 1261 1259 1167 
+Index: 827 Invalid word "swopping" found on lines 828 
+Index: 833 Invalid word "jagged" found on lines 5012 
+Index: 842 Invalid word "gentlefolks'" found on lines 5337 
+Index: 843 Invalid word "protuberant" found on lines 149 
+Index: 844 Invalid word "wearyful" found on lines 7250 
+Index: 844 Invalid word "crackenthorp's" found on lines 3990 1743 
+Index: 850 Invalid word "eatables" found on lines 3349 2555 
+Index: 851 Invalid word "egoism" found on lines 2935 
+Index: 853 Invalid word "rodney" found on lines 2138 2102 2063 2056 2053 1590 1583 1578 213 
+Index: 855 Invalid word "humour" found on lines 3819 887 
+Index: 857 Invalid word "wright's" found on lines 7946 3021 206 
+Index: 860 Invalid word "civilisation" found on lines 7458 179 
+Index: 862 Invalid word "summat" found on lines 5550 3151 2284 1834 
+Index: 863 Invalid word "graveyard" found on lines 6961 
+Index: 864 Invalid word "dropsy" found on lines 597 
+Index: 865 Invalid word "galt" found on lines 7351 7349 7347 7344 
+Index: 865 Invalid word "judgments" found on lines 6016 2710 
+Index: 874 Invalid word "toal" found on lines 5078 5076 
+Index: 874 Invalid word "incongruous" found on lines 3786 
+Index: 875 Invalid word "bryce's" found on lines 1262 
+Index: 876 Invalid word "lithography" found on lines 7206 
+Index: 876 Invalid word "shepherdess" found on lines 3549 
+Index: 877 Invalid word "primarius" found on lines 7654 7376 
+Index: 878 Invalid word "hectoring" found on lines 1610 
+Index: 879 Invalid word "forrard" found on lines 2081 
+Index: 883 Invalid word "warren" found on lines 7420 1952 
+Index: 885 Invalid word "outpouring" found on lines 5596 
+Index: 886 Invalid word "overarched" found on lines 719 
+Index: 887 Invalid word "coltsfoot" found on lines 302 
+Index: 890 Invalid word "scrutinise" found on lines 5944 
+Index: 891 Invalid word "subaltern" found on lines 7743 7731 7584 7409 7325 
+Index: 891 Invalid word "william" found on lines 7092 480 451 440 418 414 408 405 403 401 390 387 387 369 367 364 356 323 319 312 308 73 22 
+Index: 892 Invalid word "girlish" found on lines 6061 
+Index: 904 Invalid word "profusion" found on lines 819 
+Index: 908 Invalid word "beggar's" found on lines 7459 
+Index: 908 Invalid word "pauper" found on lines 2607 
+Index: 917 Invalid word "colonna" found on lines 7241 
+Index: 917 Invalid word "handicraft" found on lines 251 121 
+Index: 923 Invalid word "crowquill" found on lines 7524 
+Index: 928 Invalid word "glasgow" found on lines 7558 
+Index: 929 Invalid word "madelaine" found on lines 7249 
+Index: 929 Invalid word "tenderer" found on lines 5557 
+Index: 931 Invalid word "andrews" found on lines 7751 7735 7655 7377 
+Index: 932 Invalid word "barna" found on lines 7285 
+Index: 932 Invalid word "pre" found on lines 3338 
+Index: 933 Invalid word "disinclination" found on lines 1165 
+Index: 936 Invalid word "correi" found on lines 7470 
+Index: 937 Invalid word "dishonour" found on lines 6259 6256 
+Index: 939 Invalid word "roguishly" found on lines 5323 
+Index: 940 Invalid word "discontents" found on lines 1081 
+Index: 945 Invalid word "vallying" found on lines 1985 
+Index: 947 Invalid word "extricated" found on lines 4323 
+Index: 948 Invalid word "ponderingly" found on lines 6407 
+Index: 949 Invalid word "ayrshire" found on lines 7344 
+Index: 953 Invalid word "hurst" found on lines 7264 
+Index: 954 Invalid word "years'" found on lines 7112 6494 
+Index: 954 Invalid word "reverential" found on lines 5938 
+Index: 956 Invalid word "memento" found on lines 3954 
+Index: 963 Invalid word "hector" found on lines 1612 
+Index: 964 Invalid word "hephzibah" found on lines 4871 
+Index: 967 Invalid word "snell" found on lines 4534 2380 2375 2322 2313 2301 2294 2059 1885 1630 
+Index: 970 Invalid word "wyndham" found on lines 7409 
+Index: 971 Invalid word "enviable" found on lines 1283 
+Index: 973 Invalid word "roguish" found on lines 5372 
+Index: 974 Invalid word "episcopari" found on lines 2201 
+Index: 975 Invalid word "prac" found on lines 1721 1721 
+Index: 976 Invalid word "unsustained" found on lines 3461 
+Index: 978 Invalid word "scott" found on lines 7916 7889 7576 7188 
+Index: 981 Invalid word "disreputable" found on lines 2131 1579 
+Index: 983 Invalid word "callot" found on lines 7641 
+Index: 985 Invalid word "awk'ard" found on lines 4883 4771 
+Index: 985 Invalid word "fidgeted" found on lines 3753 3750 
+Index: 989 Invalid word "drink's" found on lines 4772 
+Index: 990 Invalid word "ostler" found on lines 2775 
+Index: 995 Invalid word "desisting" found on lines 5446 
+Index: 997 Invalid word "quarrelling" found on lines 3261 918 
+Index: 998 Invalid word "partook" found on lines 127 
+Index: 1000 Invalid word "edinburgh" found on lines 7841 7582 7538 7484 7478 7092 74 22 
+Index: 1001 Invalid word "transfiguration" found on lines 6378 
+Index: 1002 Invalid word "burke's" found on lines 7249 
+Index: 1003 Invalid word "niver" found on lines 6171 5572 5542 5541 3185 3184 3183 2141 1817 1813 
+Index: 1005 Invalid word "mammy" found on lines 4728 4728 4506 4361 4358 4332 4223 
+Index: 1005 Invalid word "drearily" found on lines 3128 
+Index: 1005 Invalid word "pliant" found on lines 1109 
+Index: 1007 Invalid word "'hark" found on lines 3257 
+Index: 1008 Invalid word "bethought" found on lines 4335 
+Index: 1009 Invalid word "dairymaid" found on lines 5852 
+Index: 1009 Invalid word "whereabout" found on lines 2357 
+Index: 1012 Invalid word "ade" found on lines 4414 
+Index: 1013 Invalid word "britannic" found on lines 7115 
+Index: 1015 Invalid word "parish'ner" found on lines 1814 
+Index: 1016 Invalid word "strickland" found on lines 7602 
+Index: 1018 Invalid word "oliphant" found on lines 7227 7203 
+Index: 1018 Invalid word "tenderest" found on lines 4655 
+Index: 1022 Invalid word "egoistic" found on lines 7019 6024 
+Index: 1022 Invalid word "osgood" found on lines 5866 5684 3979 3941 3601 3570 3567 3508 2918 2839 1877 1818 1817 
+Index: 1023 Invalid word "ploughboy'" found on lines 3876 
+Index: 1023 Invalid word "grimace" found on lines 3816 
+Index: 1031 Invalid word "miscellanies" found on lines 7427 
+Index: 1031 Invalid word "pym" found on lines 7407 
+Index: 1031 Invalid word "untravelled" found on lines 115 
+Index: 1035 Invalid word "mawkin" found on lines 3660 3618 
+Index: 1036 Invalid word "strapping" found on lines 6491 
+Index: 1036 Invalid word "unrobe" found on lines 3568 
+Index: 1040 Invalid word "solicitously" found on lines 3900 
+Index: 1046 Invalid word "coiffure" found on lines 3527 
+Index: 1047 Invalid word "ardour" found on lines 7482 
+Index: 1052 Invalid word "conjuration" found on lines 2397 
+Index: 1054 Invalid word "cyril" found on lines 7334 
+Index: 1054 Invalid word "montalembert" found on lines 7137 
+Index: 1054 Invalid word "condescended" found on lines 821 
+Index: 1055 Invalid word "lytherley" found on lines 7017 
+Index: 1057 Invalid word "outwork" found on lines 3101 3093 
+Index: 1062 Invalid word "back'ards" found on lines 5535 
+Index: 1065 Invalid word "christ" found on lines 3247 
+Index: 1066 Invalid word "renunciation" found on lines 6997 4556 4553 
+Index: 1069 Invalid word "blick" found on lines 3787 
+Index: 1070 Invalid word "urgency" found on lines 3203 
+Index: 1072 Invalid word "wynflete" found on lines 7733 
+Index: 1072 Invalid word "strath" found on lines 7287 
+Index: 1073 Invalid word "harry's" found on lines 2962 2953 
+Index: 1075 Invalid word "retribution" found on lines 6141 
+Index: 1076 Invalid word "vestry" found on lines 1863 423 373 
+Index: 1079 Invalid word "vasari" found on lines 7272 
+Index: 1079 Invalid word "anne" found on lines 18 
+Index: 1080 Invalid word "an'" found on lines 4812 
+Index: 1081 Invalid word "chesterfield" found on lines 7923 7917 7897 7884 7850 7816 7757 7752 7745 7737 7704 7699 7677 7675 7656 7636 7620 7590 7585 7571 7565 7559 7539 7472 7465 7452 7439 7417 7412 7408 
+Index: 1081 Invalid word "octavo" found on lines 7378 7364 7304 7299 7292 7230 7222 7213 7205 7199 7181 7169 7154 7143 7133 7119 7105 
+Index: 1084 Invalid word "ghos'es" found on lines 2014 2010 1994 1971 1955 
+Index: 1089 Invalid word "prim" found on lines 4087 3630 
+Index: 1090 Invalid word "winthrop's" found on lines 6251 6232 6232 5407 5295 5101 4496 3324 2848 2833 2535 2500 2500 2476 2468 2400 2392 2387 2385 1774 1757 
+Index: 1090 Invalid word "dunstan" found on lines 1440 1418 1415 1410 1390 1383 1366 1355 1350 1343 1325 1322 1294 1279 1271 1267 1248 1247 1227 1221 1214 1202 1192 1164 1113 1073 1069 1059 1051 1039 1029 1021 1010 1007 987 924 827 
+Index: 1092 Invalid word "fretting" found on lines 3585 
+Index: 1092 Invalid word "rainbow's" found on lines 1697 
+Index: 1093 Invalid word "underrate" found on lines 7829 
+Index: 1093 Invalid word "khartoum" found on lines 7109 
+Index: 1103 Invalid word "yourn" found on lines 5535 
+Index: 1105 Invalid word "o'connell" found on lines 7410 
+Index: 1108 Invalid word "futurity" found on lines 5970 4209 
+Index: 1108 Invalid word "carril" found on lines 3250 3239 3227 3225 
+Index: 1108 Invalid word "defence" found on lines 2269 
+Index: 1111 Invalid word "valerius" found on lines 7342 7339 7337 
+Index: 1111 Invalid word "aaron's" found on lines 5765 3272 3219 
+Index: 1116 Invalid word "satins" found on lines 3474 
+Index: 1118 Invalid word "rev" found on lines 7732 7653 7634 7618 7584 7581 7568 7557 7552 7537 7450 7437 7375 7162 
+Index: 1120 Invalid word "thornton" found on lines 7334 
+Index: 1123 Invalid word "hogsheads" found on lines 3593 
+Index: 1123 Invalid word "deprecated" found on lines 2813 
+Index: 1124 Invalid word "jeering" found on lines 831 
+Index: 1127 Invalid word "for'ard" found on lines 6917 5772 3832 
+Index: 1129 Invalid word "missis" found on lines 5342 
+Index: 1132 Invalid word "athen" found on lines 7845 7820 7644 
+Index: 1135 Invalid word "coquetries" found on lines 5252 
+Index: 1135 Invalid word "molly's" found on lines 4182 
+Index: 1138 Invalid word "presentment" found on lines 7389 
+Index: 1138 Invalid word "carara" found on lines 7278 
+Index: 1138 Invalid word "bucketfuls" found on lines 6990 
+Index: 1142 Invalid word "cavaliers" found on lines 7475 
+Index: 1142 Invalid word "impelled" found on lines 1159 
+Index: 1144 Invalid word "swep'" found on lines 6960 
+Index: 1146 Invalid word "bart" found on lines 7698 7683 7673 7127 
+Index: 1147 Invalid word "centred" found on lines 5208 279 
+Index: 1148 Invalid word "felicitous" found on lines 1300 
+Index: 1149 Invalid word "patting" found on lines 4726 4380 
+Index: 1151 Invalid word "ann" found on lines 622 
+Index: 1152 Invalid word "shilly" found on lines 2729 
+Index: 1155 Invalid word "elgin's" found on lines 7228 7202 
+Index: 1156 Invalid word "liverpool" found on lines 7518 
+Index: 1157 Invalid word "bate" found on lines 3760 
+Index: 1164 Invalid word "scarify" found on lines 3813 
+Index: 1165 Invalid word "previsions" found on lines 6628 6626 
+Index: 1165 Invalid word "gnome" found on lines 5105 
+Index: 1166 Invalid word "delusive" found on lines 1643 
+Index: 1167 Invalid word "toilettes" found on lines 3454 
+Index: 1169 Invalid word "placably" found on lines 4457 1021 
+Index: 1170 Invalid word "dames" found on lines 5501 3346 
+Index: 1170 Invalid word "unfavourable" found on lines 2622 
+Index: 1171 Invalid word "'master" found on lines 5682 
+Index: 1171 Invalid word "fetishism" found on lines 5435 
+Index: 1171 Invalid word "twinge" found on lines 4544 
+Index: 1171 Invalid word "pillion" found on lines 3431 3405 3397 3390 
+Index: 1174 Invalid word "aytoun" found on lines 7529 7500 7495 7476 7271 
+Index: 1174 Invalid word "slovenly" found on lines 2559 
+Index: 1175 Invalid word "frizzle" found on lines 7331 
+Index: 1187 Invalid word "unrelentingness" found on lines 2515 
+Index: 1187 Invalid word "licence" found on lines 826 9 
+Index: 1188 Invalid word "fulfil" found on lines 4552 3722 2672 
+Index: 1191 Invalid word "margaret" found on lines 7608 7605 7312 
+Index: 1194 Invalid word "labour" found on lines 741 
+Index: 1203 Invalid word "daffadil" found on lines 7269 7071 4497 4046 4040 4033 4016 3979 3617 
+Index: 1203 Invalid word "ben" found on lines 3105 3050 1958 1765 1757 1747 
+Index: 1208 Invalid word "sacramen'" found on lines 3188 3155 
+Index: 1210 Invalid word "christine" found on lines 7264 
+Index: 1212 Invalid word "kimble's" found on lines 3331 3330 3328 
+Index: 1214 Invalid word "godson" found on lines 3860 
+Index: 1216 Invalid word "seein'" found on lines 3157 
+Index: 1219 Invalid word "gravestones" found on lines 6190 
+Index: 1220 Invalid word "helplesser" found on lines 5769 
+Index: 1222 Invalid word "hypocritical" found on lines 2939 
+Index: 1223 Invalid word "lugas" found on lines 7287 
+Index: 1225 Invalid word "scrag" found on lines 3594 
+Index: 1230 Invalid word "carlyle" found on lines 7574 7573 7568 
+Index: 1233 Invalid word "ding" found on lines 3742 
+Index: 1235 Invalid word "evans" found on lines 18 
+Index: 1238 Invalid word "scrat" found on lines 4751 
+Index: 1244 Invalid word "dutchman" found on lines 7262 
+Index: 1244 Invalid word "faustus" found on lines 7244 
+Index: 1245 Invalid word "oughtn't" found on lines 6297 6297 
+Index: 1245 Invalid word "dunsey's" found on lines 2842 2772 
+Index: 1253 Invalid word "bulwer" found on lines 7381 
+Index: 1253 Invalid word "heirlooms" found on lines 792 
+Index: 1259 Invalid word "invidious" found on lines 7828 
+Index: 1263 Invalid word "fowler's" found on lines 1030 882 
+Index: 1264 Invalid word "barbara" found on lines 30 
+Index: 1270 Invalid word "veitch" found on lines 7734 
+Index: 1274 Invalid word "osborn" found on lines 7211 7197 
+Index: 1274 Invalid word "bread's" found on lines 3086 
+Index: 1274 Invalid word "'yes" found on lines 1843 
+Index: 1276 Invalid word "stewart" found on lines 7297 7122 
+Index: 1278 Invalid word "narration" found on lines 7267 1802 
+Index: 1283 Invalid word "antenn" found on lines 2029 
+Index: 1285 Invalid word "sacrament" found on lines 3030 2333 
+Index: 1286 Invalid word "paton's" found on lines 7259 
+Index: 1286 Invalid word "creaturs" found on lines 5578 1922 
+Index: 1288 Invalid word "akrigg" found on lines 30 
+Index: 1291 Invalid word "dalkeith" found on lines 7323 
+Index: 1291 Invalid word "inanity" found on lines 656 
+Index: 1293 Invalid word "bespoke" found on lines 3834 
+Index: 1294 Invalid word "neighbour's" found on lines 3950 
+Index: 1295 Invalid word "edward" found on lines 7381 7218 
+Index: 1297 Invalid word "murderer's" found on lines 7266 
+Index: 1299 Invalid word "our'n" found on lines 4752 
+Index: 1300 Invalid word "contrairiways" found on lines 1999 
+Index: 1301 Invalid word "looksed" found on lines 4021 2953 
+Index: 1304 Invalid word "that'll" found on lines 6664 4807 
+Index: 1305 Invalid word "fretted" found on lines 5702 4155 
+Index: 1311 Invalid word "ventur" found on lines 1962 1955 
+Index: 1313 Invalid word "fending" found on lines 4767 
+Index: 1314 Invalid word "ambrosian" found on lines 7760 
+Index: 1314 Invalid word "godfathers" found on lines 3027 
+Index: 1314 Invalid word "scamp" found on lines 2650 
+Index: 1321 Invalid word "recurred" found on lines 5531 
+Index: 1324 Invalid word "docilely" found on lines 5142 4777 
+Index: 1327 Invalid word "nonconformist" found on lines 7629 
+Index: 1328 Invalid word "neighbour" found on lines 4482 
+Index: 1328 Invalid word "'pooh" found on lines 1871 
+Index: 1330 Invalid word "'pinions" found on lines 1738 1737 
+Index: 1333 Invalid word "bon" found on lines 7522 
+Index: 1340 Invalid word "lee's" found on lines 7415 
+Index: 1340 Invalid word "leeching" found on lines 5525 4773 
+Index: 1341 Invalid word "stupefied" found on lines 4956 
+Index: 1342 Invalid word "devereux" found on lines 7245 
+Index: 1343 Invalid word "douglas" found on lines 7608 
+Index: 1345 Invalid word "errant" found on lines 2712 
+Index: 1345 Invalid word "folks'" found on lines 154 
+Index: 1347 Invalid word "angils" found on lines 4732 3257 
+Index: 1348 Invalid word "conway" found on lines 7409 
+Index: 1349 Invalid word "miser's" found on lines 1349 
+Index: 1350 Invalid word "dispensations" found on lines 510 
+Index: 1353 Invalid word "pillions" found on lines 3487 3346 800 
+Index: 1354 Invalid word "behoof" found on lines 2478 
+Index: 1358 Invalid word "exiguity" found on lines 3393 
+Index: 1362 Invalid word "stunned" found on lines 472 
+Index: 1363 Invalid word "'prentice" found on lines 4490 
+Index: 1364 Invalid word "unpatient" found on lines 4773 
+Index: 1365 Invalid word "jewellery" found on lines 2828 
+Index: 1366 Invalid word "gilbert's" found on lines 7072 3511 
+Index: 1366 Invalid word "flavour" found on lines 2935 
+Index: 1367 Invalid word "beaux" found on lines 4637 
+Index: 1372 Invalid word "goethe's" found on lines 7532 
+Index: 1375 Invalid word "tow'rt" found on lines 4758 1936 
+Index: 1376 Invalid word "marlborough" found on lines 7696 
+Index: 1381 Invalid word "creatur" found on lines 4835 2997 2951 2910 2360 
+Index: 1382 Invalid word "ay" found on lines 5362 4493 3915 3915 3736 3736 2991 2991 2163 2163 2146 2146 2088 2088 2066 1992 1933 1933 1930 1896 1869 1827 1797 1791 1791 1735 1735 1709 1709 1051 1051 1021 1021 
+Index: 1384 Invalid word "ca" found on lines 9 
+Index: 1386 Invalid word "rutted" found on lines 787 
+Index: 1391 Invalid word "a'mighty" found on lines 3659 
+Index: 1394 Invalid word "how'll" found on lines 6596 
+Index: 1396 Invalid word "china" found on lines 7228 7202 7198 7196 
+Index: 1397 Invalid word "evasion" found on lines 2683 
+Index: 1398 Invalid word "co" found on lines 3956 
+Index: 1398 Invalid word "vicinage" found on lines 1169 
+Index: 1399 Invalid word "drumlow" found on lines 1869 1838 1832 1821 
+Index: 1401 Invalid word "de" found on lines 7137 5078 5076 3912 
+Index: 1401 Invalid word "partic'lar" found on lines 3188 3137 1831 1827 
+Index: 1402 Invalid word "tat" found on lines 3823 3815 
+Index: 1402 Invalid word "conciliatory" found on lines 2047 1784 1043 
+Index: 1404 Invalid word "i'" found on lines 6970 6970 6922 6911 6872 6712 6680 6676 6599 6171 5680 5588 5587 5586 5586 5576 5571 5562 5556 5552 5381 5319 5302 4977 4976 4974 4863 4840 4808 4757 4717 4012 3278 3189 3157 3119 3107 3003 2967 2179 2143 2011 2011 1995 1993 1935 1918 1860 1857 1844 
+Index: 1405 Invalid word "di" found on lines 7278 7272 
+Index: 1407 Invalid word "nursling" found on lines 5147 
+Index: 1409 Invalid word "cushiony" found on lines 3972 
+Index: 1410 Invalid word "durhams" found on lines 1657 
+Index: 1413 Invalid word "'suppose" found on lines 1854 
+Index: 1414 Invalid word "dr" found on lines 7573 7568 5460 3789 3787 
+Index: 1416 Invalid word "whatever's" found on lines 4863 
+Index: 1417 Invalid word "eh" found on lines 6919 6889 6473 6401 5763 5662 5571 5519 5312 4895 4874 4813 4770 4714 4489 3916 3861 3835 3802 3801 3713 3008 3007 2440 1943 1931 1897 1848 1819 1788 1787 1698 1045 893 
+Index: 1418 Invalid word "sow" found on lines 4636 
+Index: 1421 Invalid word "impressible" found on lines 313 
+Index: 1423 Invalid word "fa" found on lines 4414 
+Index: 1423 Invalid word "en" found on lines 2223 
+Index: 1424 Invalid word "stonepit" found on lines 7943 
+Index: 1425 Invalid word "tuileries" found on lines 7259 
+Index: 1425 Invalid word "unquestionable" found on lines 6653 
+Index: 1427 Invalid word "delhi" found on lines 7159 7156 
+Index: 1430 Invalid word "metempsychosis" found on lines 7246 
+Index: 1433 Invalid word "workhouse" found on lines 6907 6398 4580 
+Index: 1434 Invalid word "janiwary" found on lines 1836 
+Index: 1440 Invalid word "ge" found on lines 1872 
+Index: 1442 Invalid word "fibre" found on lines 4508 
+Index: 1442 Invalid word "sceptical" found on lines 2030 
+Index: 1442 Invalid word "birds'" found on lines 139 
+Index: 1449 Invalid word "colour" found on lines 5420 4024 3625 3395 1303 672 
+Index: 1450 Invalid word "'history" found on lines 7638 
+Index: 1452 Invalid word "catalepsy" found on lines 4280 
+Index: 1452 Invalid word "coachman's" found on lines 3392 
+Index: 1454 Invalid word "mantelpiece" found on lines 5813 
+Index: 1454 Invalid word "meanin'" found on lines 1862 1859 1857 
+Index: 1454 Invalid word "cow's" found on lines 1696 
+Index: 1457 Invalid word "russell" found on lines 7255 
+Index: 1463 Invalid word "tulloch" found on lines 7653 7375 
+Index: 1467 Invalid word "chelsea" found on lines 7325 
+Index: 1468 Invalid word "gunn" found on lines 4644 3585 
+Index: 1473 Invalid word "sipping" found on lines 1004 
+Index: 1478 Invalid word "henry" found on lines 7890 7883 7463 7187 
+Index: 1478 Invalid word "proprieties" found on lines 6012 
+Index: 1479 Invalid word "unvitiated" found on lines 5619 
+Index: 1480 Invalid word "tramp's" found on lines 4693 2172 
+Index: 1482 Invalid word "o'" found on lines 6968 6964 6963 6934 6933 6911 6892 6870 6857 6856 6856 6855 6848 6713 6688 6679 6598 6598 6597 6575 6574 6474 6393 6393 6387 6346 5902 5889 5883 5871 5868 5865 5839 5741 5684 5682 5668 5657 5589 5588 5587 5584 5574 5569 5561 5560 5559 5556 5551 5551 5545 5544 5544 5541 5535 5534 5507 5497 5493 5355 5353 5351 5346 5341 5335 5329 5328 5315 5313 5309 5304 5302 5301 5300 5092 5083 4896 4894 4891 4840 4811 4804 4804 4783 4782 4767 4766 4756 4752 4715 4533 4502 4471 4042 4029 4027 4026 4018 4017 3987 3979 3977 3973 3865 3658 3656 3647 3627 3625 3588 3584 3567 3276 3260 3192 3188 3186 3168 3151 3150 3118 3115 3086 3005 2998 2972 2971 2968 2965 2964 2962 2957 2954 2774 2772 2755 2729 2725 2723 2723 2704 2607 2287 2195 2178 2148 2146 2075 2001 1996 1989 1984 1983 1970 1962 1936 1935 1926 1919 1918 1915 1914 1910 1908 1905 1902 1875 1864 1839 1834 1818 1815 1806 1761 1720 1698 1697 1685 1685 1657 1237 1236 921 887 
+Index: 1485 Invalid word "widowhood" found on lines 7415 
+Index: 1485 Invalid word "effectual" found on lines 5012 
+Index: 1485 Invalid word "summits" found on lines 191 
+Index: 1486 Invalid word "catechise" found on lines 4826 
+Index: 1487 Invalid word "unmeaningly" found on lines 3195 
+Index: 1489 Invalid word "mysen" found on lines 1869 1861 
+Index: 1490 Invalid word "thomson" found on lines 7964 41 19 
+Index: 1498 Invalid word "thy" found on lines 1841 1840 
+Index: 1501 Invalid word "carle" found on lines 7576 
+Index: 1501 Invalid word "la" found on lines 7249 
+Index: 1501 Invalid word "lulling" found on lines 4591 4244 
+Index: 1504 Invalid word "dutch" found on lines 7264 
+Index: 1505 Invalid word "tis" found on lines 1721 
+Index: 1507 Invalid word "melbourne" found on lines 7410 
+Index: 1509 Invalid word "mant's" found on lines 5932 
+Index: 1510 Invalid word "recognise" found on lines 5263 5236 
+Index: 1510 Invalid word "jem's" found on lines 2142 
+Index: 1512 Invalid word "ll" found on lines 7732 7703 7147 
+Index: 1512 Invalid word "cox" found on lines 2612 885 
+Index: 1513 Invalid word "chay" found on lines 7256 
+Index: 1516 Invalid word "labourers" found on lines 680 
+Index: 1521 Invalid word "cheeked" found on lines 3062 
+Index: 1522 Invalid word "reverent" found on lines 3717 
+Index: 1522 Invalid word "foxes'" found on lines 859 
+Index: 1527 Invalid word "na" found on lines 7269 
+Index: 1530 Invalid word "noways" found on lines 4889 4837 
+Index: 1531 Invalid word "ne" found on lines 1062 
+Index: 1532 Invalid word "motherless" found on lines 7063 
+Index: 1533 Invalid word "gell" found on lines 4815 4807 
+Index: 1533 Invalid word "chines" found on lines 809 
+Index: 1534 Invalid word "lammeters'" found on lines 3450 
+Index: 1534 Invalid word "cherubic" found on lines 3241 
+Index: 1534 Invalid word "vaughan" found on lines 30 
+Index: 1536 Invalid word "hanker" found on lines 5899 
+Index: 1537 Invalid word "macey's" found on lines 7043 3965 1881 1758 
+Index: 1538 Invalid word "certitude" found on lines 6897 
+Index: 1543 Invalid word "pillowing" found on lines 4223 
+Index: 1544 Invalid word "castlereagh" found on lines 7409 7121 
+Index: 1545 Invalid word "neighbourhood" found on lines 2244 
+Index: 1549 Invalid word "tongue's" found on lines 5540 3813 
+Index: 1556 Invalid word "pedlar" found on lines 2863 2826 2376 2372 2365 2352 2343 2328 2325 2297 110 
+Index: 1560 Invalid word "agnes" found on lines 7602 
+Index: 1562 Invalid word "vivacious" found on lines 3815 
+Index: 1563 Invalid word "clairvoyante" found on lines 2313 
+Index: 1566 Invalid word "o'erhanging" found on lines 6946 6918 
+Index: 1566 Invalid word "paltry" found on lines 3348 
+Index: 1566 Invalid word "farrier's" found on lines 2202 2015 
+Index: 1567 Invalid word "remonstrances" found on lines 6043 
+Index: 1567 Invalid word "arter" found on lines 4751 4001 
+Index: 1568 Invalid word "pp" found on lines 7907 7901 
+Index: 1568 Invalid word "sherard" found on lines 7211 7197 
+Index: 1574 Invalid word "fulfils" found on lines 7857 
+Index: 1574 Invalid word "indolence" found on lines 4187 
+Index: 1575 Invalid word "spontaneity" found on lines 2857 
+Index: 1577 Invalid word "unctuous" found on lines 794 
+Index: 1579 Invalid word "work's" found on lines 5309 
+Index: 1580 Invalid word "misdeeds" found on lines 5094 
+Index: 1580 Invalid word "i'n" found on lines 1875 
+Index: 1582 Invalid word "faut" found on lines 7949 
+Index: 1584 Invalid word "forrest" found on lines 7271 
+Index: 1587 Invalid word "flodden" found on lines 7484 
+Index: 1587 Invalid word "bessy" found on lines 6013 5554 5537 
+Index: 1587 Invalid word "jocosely" found on lines 5203 
+Index: 1587 Invalid word "toilette" found on lines 3515 
+Index: 1588 Invalid word "ta'en" found on lines 2148 
+Index: 1591 Invalid word "pun'" found on lines 1955 
+Index: 1595 Invalid word "convulsive" found on lines 5042 
+Index: 1596 Invalid word "undeceived" found on lines 3850 
+Index: 1596 Invalid word "splashings" found on lines 3400 
+Index: 1599 Invalid word "curacy" found on lines 7275 
+Index: 1599 Invalid word "'hurt" found on lines 4827 
+Index: 1599 Invalid word "twitches" found on lines 3752 
+Index: 1599 Invalid word "fool's" found on lines 2632 
+Index: 1602 Invalid word "north'ard" found on lines 1805 1803 204 
+Index: 1603 Invalid word "bergamot" found on lines 5335 
+Index: 1604 Invalid word "orbs" found on lines 3093 
+Index: 1605 Invalid word "godfrey'll" found on lines 3833 
+Index: 1609 Invalid word "awanting" found on lines 3660 
+Index: 1611 Invalid word "st" found on lines 7922 7751 7735 7655 7654 7407 7404 7377 7376 
+Index: 1615 Invalid word "duplicity" found on lines 4444 2684 
+Index: 1621 Invalid word "dalton" found on lines 7339 
+Index: 1621 Invalid word "ebook" found on lines 29 27 21 8 6 4 2 
+Index: 1623 Invalid word "cox's" found on lines 2770 
+Index: 1625 Invalid word "rutty" found on lines 7400 3342 
+Index: 1625 Invalid word "bede" found on lines 58 
+Index: 1626 Invalid word "samuel" found on lines 7420 
+Index: 1627 Invalid word "wainscoted" found on lines 5808 5803 3675 2550 856 
+Index: 1630 Invalid word "um" found on lines 7845 7820 7644 
+Index: 1631 Invalid word "un" found on lines 6395 5662 5564 5519 5117 4819 4816 4753 3657 3615 3105 2970 
+Index: 1632 Invalid word "spirituous" found on lines 2855 
+Index: 1635 Invalid word "nancy" found on lines 7948 7948 7035 7026 7016 6828 6825 6820 6815 6811 6802 6799 6796 6781 6771 6768 6752 6742 6740 6727 6719 6699 6667 6648 6643 6482 6439 6421 6348 6338 6325 6323 6301 6298 6288 6283 6273 6267 6246 6235 6227 6222 6202 6194 6182 6175 6158 6148 6108 6059 6048 6031 6014 6006 5998 5987 5980 5928 5920 5916 5894 5877 5846 5824 5814 5257 5248 5208 4670 4655 4639 4560 4554 4461 4405 4402 4154 4140 4137 4125 4123 4118 4109 4108 4102 4094 4087 4074 4065 4060 4058 4053 4045 4032 4028 4005 3999 3857 3848 3842 3840 3837 3834 3828 3756 3746 3741 3715 3710 3693 3681 3677 3649 3635 3622 3606 3588 3575 3568 3563 3553 3546 3532 3519 3510 3495 3488 3477 3474 3471 3455 3445 3440 3419 3396 3373 3365 2788 2531 2245 1157 1154 1140 1135 1123 1104 1077 997 955 948 944 852 844 838 
+Index: 1639 Invalid word "holiday'" found on lines 1937 
+Index: 1644 Invalid word "a'most" found on lines 2318 
+Index: 1645 Invalid word "vo" found on lines 7932 7353 7351 7349 7347 7344 7342 7339 7337 7335 7331 7329 7325 7323 7321 7318 7316 7313 7310 
+Index: 1649 Invalid word "spar" found on lines 5820 
+Index: 1650 Invalid word "undeserved" found on lines 4545 
+Index: 1651 Invalid word "follett" found on lines 7411 
+Index: 1655 Invalid word "vy" found on lines 2223 
+Index: 1656 Invalid word "repugnance" found on lines 4094 255 
+Index: 1661 Invalid word "dillicate" found on lines 5664 
+Index: 1662 Invalid word "foreseeing" found on lines 3793 
+Index: 1662 Invalid word "tut" found on lines 2008 2008 
+Index: 1664 Invalid word "gallanting" found on lines 4643 
+Index: 1666 Invalid word "lebrun's" found on lines 7286 
+Index: 1669 Invalid word "gentlemen" found on lines 4378 4087 3896 3245 
+Index: 1674 Invalid word "ye" found on lines 3904 3904 
+Index: 1675 Invalid word "presto" found on lines 4009 
+Index: 1677 Invalid word "ignirant" found on lines 2014 
+Index: 1679 Invalid word "messrs" found on lines 7098 
+Index: 1681 Invalid word "'wilt" found on lines 3000 1906 1841 1840 
+Index: 1681 Invalid word "heared" found on lines 1807 
+Index: 1683 Invalid word "florid" found on lines 6444 
+Index: 1687 Invalid word "winnowing" found on lines 137 
+Index: 1688 Invalid word "'very" found on lines 1997 
+Index: 1688 Invalid word "ruminating" found on lines 1301 
+Index: 1695 Invalid word "imperceptible" found on lines 5709 
+Index: 1696 Invalid word "discursive" found on lines 2976 
+Index: 1697 Invalid word "eppie" found on lines 7964 7084 7078 7076 7049 7000 6996 6973 6971 6967 6951 6940 6937 6921 6906 6902 6885 6875 6870 6860 6851 6844 6841 6810 6794 6766 6728 6710 6693 6685 6670 6656 6652 6645 6644 6622 6620 6609 6608 6596 6590 6584 6580 6567 6563 6563 6562 6549 6542 6534 6531 6522 6514 6510 6506 6498 6489 6489 6479 6474 6462 6455 6451 6440 6439 6432 6426 6423 6412 6408 6397 6394 6379 6362 6345 6285 6284 6252 6141 6116 6080 6070 6068 5798 5786 5785 5781 5778 5767 5758 5749 5747 5742 5742 5740 5733 5728 5713 5711 5705 5698 5691 5686 5682 5667 5656 5637 5614 5604 5599 5577 5573 5562 5550 5533 5520 5509 5493 5470 5466 5451 5448 5440 5434 5428 5416 5402 5391 5387 5383 5378 5365 5358 5332 5327 5322 5306 5295 5285 5277 5266 5223 5173 5140 5131 5115 5102 5094 5086 5078 5076 5073 5068 5065 5062 5056 5053 5051 5046 5039 5032 5028 5018 5016 4991 4986 4980 4973 4969 4964 4940 4938 4930 4924 4921 4916 4890 4887 
+Index: 1697 Invalid word "coppice" found on lines 4885 4867 4855 4839 4828 4819 4817 4795 4787 4784 4777 4754 4736 4721 4714 4709 4616 4610 4591 4515 4507 4499 4494 4468 4433 4428 4424 4330 4248 3305 3280 3274 3272 3263 3258 3252 3238 3227 3220 3219 3183 3135 3120 3084 3058 3006 2994 2988 2985 2980 2972 2967 2947 2928 2904 2363 2360 2351 2269 2264 2183 2175 2167 2148 2144 2138 2133 2123 2115 2107 2099 2091 2078 2077 2066 2047 2036 2031 2026 1584 1581 1579 1504 1440 1419 1372 1285 
+Index: 1697 Invalid word "marner" found on lines 1197 724 705 688 661 650 626 622 614 518 502 481 472 454 438 435 389 313 275 263 260 258 248 240 237 224 214 198 154 144 134 84 51 46 17 
+Index: 1699 Invalid word "louis" found on lines 7682 
+Index: 1704 Invalid word "pregnancy" found on lines 6601 
+Index: 1705 Invalid word "hedgerows" found on lines 5027 4938 506 135 
+Index: 1706 Invalid word "cringle's" found on lines 7320 7318 
+Index: 1708 Invalid word "rumination" found on lines 5955 1074 
+Index: 1709 Invalid word "benumbing" found on lines 474 
+Index: 1712 Invalid word "forbes" found on lines 7297 
+Index: 1713 Invalid word "i'stead" found on lines 6574 6191 5723 5292 4798 4018 
+Index: 1713 Invalid word "rectory" found on lines 189 
+Index: 1714 Invalid word "othoman" found on lines 7955 
+Index: 1714 Invalid word "gavin" found on lines 7575 
+Index: 1715 Invalid word "imperceptibly" found on lines 3049 
+Index: 1716 Invalid word "joseph" found on lines 3494 3488 3391 
+Index: 1717 Invalid word "godfrey" found on lines 6999 6828 6799 6790 6762 6744 6741 6740 6731 6719 6699 6656 6654 6601 6591 6581 6553 6519 6506 6486 6473 6459 6436 6426 6416 6345 6341 6338 6332 6326 6318 6313 6309 6292 6283 6269 6258 6250 6245 6230 6217 6209 6194 6187 6182 6153 6111 6107 6097 6094 6087 6081 6077 6068 6055 6048 6042 6000 5921 5909 5896 5878 5828 5683 5410 5254 5238 5203 5200 5198 5193 4711 4652 4644 4636 4620 4607 4585 4582 4575 4565 4544 4537 4520 4507 4495 4495 4464 4461 4440 4437 4419 4410 4401 4177 4162 4153 4143 4137 4123 4118 4114 4107 4098 4093 4083 4075 4071 4059 4058 4054 4045 4041 4020 4009 3859 3853 3849 3839 3836 3757 3715 3713 3693 3678 3426 3414 3407 3405 3364 3357 2795 2784 2779 2765 2750 2742 2736 2709 2689 2683 2682 2679 2657 2641 2617 2592 2578 2549 2539 2523 2518 2513 2494 2488 2475 2465 2462 2457 2443 2437 2427 2417 2408 2405 2379 2370 2251 2239 1607 1349 1325 1295 1292 1291 1219 1214 1213 1210 1207 1203 1181 1171 1115 1106 1073 1065 1056 1038 1013 980 973 960 948 924 910 897 880 875 855 851 842 834 
+Index: 1724 Invalid word "anthim" found on lines 7071 7039 7011 6965 6960 6864 6793 6365 5765 5665 5632 5586 5547 5480 5323 5082 4969 4708 4512 3979 3294 3155 
+Index: 1724 Invalid word "winthrop" found on lines 3068 3050 3034 3020 2770 2612 1958 1765 1747 1730 
+Index: 1726 Invalid word "levity" found on lines 3943 
+Index: 1728 Invalid word "quarrelled" found on lines 4633 
+Index: 1730 Invalid word "grinning" found on lines 2373 1298 
+Index: 1730 Invalid word "centering" found on lines 509 
+Index: 1731 Invalid word "strapped" found on lines 2085 
+Index: 1731 Invalid word "farren" found on lines 904 
+Index: 1733 Invalid word "loveless" found on lines 556 
+Index: 1736 Invalid word "'lowance" found on lines 2930 
+Index: 1736 Invalid word "conviviality" found on lines 1605 
+Index: 1738 Invalid word "brady" found on lines 7249 
+Index: 1739 Invalid word "hamilton's" found on lines 7731 
+Index: 1739 Invalid word "uns" found on lines 3833 3584 1710 
+Index: 1741 Invalid word "childless" found on lines 6769 6768 6141 6133 5958 354 
+Index: 1745 Invalid word "irreligion" found on lines 3959 
+Index: 1748 Invalid word "carping" found on lines 4017 
+Index: 1751 Invalid word "solomon" found on lines 3924 3919 3915 3911 3904 3899 3889 3885 3882 3879 3875 1793 1787 
+Index: 1752 Invalid word "whereof" found on lines 7640 
+Index: 1752 Invalid word "sodger" found on lines 3972 
+Index: 1752 Invalid word "cutlery" found on lines 2828 
+Index: 1754 Invalid word "unresistingly" found on lines 2095 1131 
+Index: 1756 Invalid word "sarcastically" found on lines 5902 
+Index: 1758 Invalid word "niesenstein" found on lines 7253 
+Index: 1758 Invalid word "comporting" found on lines 3345 
+Index: 1758 Invalid word "sobriety" found on lines 1459 1137 
+Index: 1758 Invalid word "defenceless" found on lines 316 
+Index: 1759 Invalid word "blameworthy" found on lines 5280 4666 
+Index: 1760 Invalid word "unforbidden" found on lines 2836 
+Index: 1766 Invalid word "dowlas" found on lines 2227 2218 2000 1992 1979 1976 1964 1958 1947 1943 
+Index: 1767 Invalid word "ingenuously" found on lines 5713 
+Index: 1769 Invalid word "betty" found on lines 793 
+Index: 1770 Invalid word "yead" found on lines 3990 
+Index: 1774 Invalid word "vouchsafed" found on lines 3763 
+Index: 1779 Invalid word "learnt" found on lines 1711 
+Index: 1781 Invalid word "complacency" found on lines 2188 1791 1705 1460 
+Index: 1782 Invalid word "wildfire" found on lines 6243 2849 2840 2698 2629 2619 2597 2399 2388 2385 2248 2241 1312 1281 1279 1269 1259 1241 1238 1235 1224 1211 1164 1067 1023 1014 933 
+Index: 1783 Invalid word "gentlefolks" found on lines 6890 6476 3973 1916 
+Index: 1784 Invalid word "andrew" found on lines 7594 7347 
+Index: 1790 Invalid word "ver" found on lines 1062 
+Index: 1790 Invalid word "practised" found on lines 192 
+Index: 1792 Invalid word "christopher" found on lines 7763 
+Index: 1794 Invalid word "laudanum" found on lines 954 
+Index: 1795 Invalid word "headsman" found on lines 7250 
+Index: 1795 Invalid word "wilful" found on lines 6090 283 
+Index: 1802 Invalid word "changeful" found on lines 1458 
+Index: 1803 Invalid word "won't'" found on lines 6277 
+Index: 1803 Invalid word "dairy's" found on lines 5878 
+Index: 1803 Invalid word "coorting" found on lines 4030 
+Index: 1805 Invalid word "unpossessed" found on lines 1380 
+Index: 1806 Invalid word "father'" found on lines 6586 
+Index: 1810 Invalid word "knitting" found on lines 4816 
+Index: 1813 Invalid word "anybody'll" found on lines 2973 1985 
+Index: 1813 Invalid word "'cute" found on lines 1865 
+Index: 1814 Invalid word "florence" found on lines 7272 
+Index: 1815 Invalid word "laboured" found on lines 6105 
+Index: 1816 Invalid word "angil" found on lines 4895 
+Index: 1816 Invalid word "stomichs" found on lines 3087 
+Index: 1817 Invalid word "demigod" found on lines 7573 
+Index: 1819 Invalid word "oxford" found on lines 7733 
+Index: 1819 Invalid word "snell's" found on lines 7067 6176 2370 2304 
+Index: 1820 Invalid word "unquestioning" found on lines 563 
+Index: 1823 Invalid word "nolo" found on lines 2201 
+Index: 1826 Invalid word "jogging" found on lines 528 
+Index: 1830 Invalid word "bolton's" found on lines 7275 
+Index: 1830 Invalid word "famil'ar" found on lines 5516 
+Index: 1830 Invalid word "'bate" found on lines 1984 
+Index: 1832 Invalid word "laurence" found on lines 7227 7203 
+Index: 1832 Invalid word "raveloe" found on lines 6986 5601 5472 5459 5418 5278 5254 5224 5141 5140 4905 4685 4321 4268 4192 4157 3952 3942 3787 3782 3766 3717 3341 3309 3194 3061 3042 3021 2937 2875 2851 2833 2822 2590 2583 2448 2112 1726 1600 1503 1330 1300 858 823 796 787 782 772 767 725 710 680 620 603 551 532 526 503 270 259 209 198 193 177 139 135 86 53 17 
+Index: 1833 Invalid word "favour" found on lines 6082 3725 2506 994 946 778 341 
+Index: 1834 Invalid word "tenacity" found on lines 6011 
+Index: 1837 Invalid word "honoured" found on lines 770 
+Index: 1838 Invalid word "orts" found on lines 792 
+Index: 1840 Invalid word "unbenumbed" found on lines 4175 
+Index: 1840 Invalid word "george's" found on lines 2287 
+Index: 1843 Invalid word "travelling" found on lines 3487 
+Index: 1846 Invalid word "exhorted" found on lines 403 378 342 
+Index: 1850 Invalid word "viz" found on lines 7737 7704 7592 
+Index: 1851 Invalid word "will'" found on lines 6277 
+Index: 1852 Invalid word "beneficent" found on lines 7374 
+Index: 1852 Invalid word "naples" found on lines 7300 
+Index: 1853 Invalid word "father'll" found on lines 5904 
+Index: 1853 Invalid word "drawed" found on lines 5564 
+Index: 1854 Invalid word "leastwise" found on lines 5424 
+Index: 1854 Invalid word "jocose" found on lines 1722 
+Index: 1861 Invalid word "punjab" found on lines 7163 7158 7156 
+Index: 1861 Invalid word "priscy" found on lines 3649 3635 3620 
+Index: 1865 Invalid word "musicianers" found on lines 1792 
+Index: 1870 Invalid word "betrayals" found on lines 988 
+Index: 1873 Invalid word "jane" found on lines 6216 6187 6178 6169 6166 6164 6162 
+Index: 1877 Invalid word "jollity" found on lines 4378 
+Index: 1885 Invalid word "solicitude" found on lines 5945 
+Index: 1888 Invalid word "reason's" found on lines 3924 1813 
+Index: 1888 Invalid word "wainscot" found on lines 822 
+Index: 1895 Invalid word "esq" found on lines 7471 
+Index: 1896 Invalid word "eglantine" found on lines 4597 
+Index: 1897 Invalid word "mechanics'" found on lines 7870 
+Index: 1897 Invalid word "'ring" found on lines 2600 
+Index: 1899 Invalid word "churchmen" found on lines 3803 
+Index: 1902 Invalid word "merrymakings" found on lines 795 
+Index: 1903 Invalid word "leicester" found on lines 7263 
+Index: 1909 Invalid word "lief" found on lines 1974 
+Index: 1910 Invalid word "sons'" found on lines 7098 2589 
+Index: 1913 Invalid word "treddles" found on lines 1409 
+Index: 1914 Invalid word "vol" found on lines 7904 7899 7765 7764 7762 7678 7285 7282 7278 7274 7271 7266 7262 7258 7252 7248 7244 7240 
+Index: 1915 Invalid word "'christened'" found on lines 4852 
+Index: 1917 Invalid word "'sniff" found on lines 4036 
+Index: 1917 Invalid word "christianity" found on lines 520 
+Index: 1923 Invalid word "ruxton" found on lines 7353 
+Index: 1924 Invalid word "parishioners" found on lines 5228 2293 770 
+Index: 1929 Invalid word "unnurtured" found on lines 327 
+Index: 1930 Invalid word "alexander" found on lines 7568 
+Index: 1930 Invalid word "deterred" found on lines 1040 
+Index: 1933 Invalid word "morrow's" found on lines 1165 
+Index: 1935 Invalid word "irresolution" found on lines 2516 984 
+Index: 1936 Invalid word "wi'" found on lines 5663 5544 5537 5534 5515 5494 5303 5089 4975 4975 4894 4812 4771 4752 4734 4038 4019 4005 3999 3997 3261 3189 3120 2955 2066 1952 1922 1919 1903 1874 1870 1869 1833 1833 1820 1772 1687 
+Index: 1936 Invalid word "uncut" found on lines 809 
+Index: 1939 Invalid word "marquesses" found on lines 7123 
+Index: 1949 Invalid word "legatees" found on lines 7344 
+Index: 1949 Invalid word "equil" found on lines 3256 3002 
+Index: 1950 Invalid word "goliath" found on lines 4988 
+Index: 1957 Invalid word "ramsay" found on lines 7537 
+Index: 1958 Invalid word "embolden" found on lines 3064 
+Index: 1960 Invalid word "coverley" found on lines 3912 
+Index: 1963 Invalid word "incalculable" found on lines 2129 786 
+Index: 1969 Invalid word "peninsular" found on lines 7328 
+Index: 1969 Invalid word "unsuspectingly" found on lines 1522 
+Index: 1979 Invalid word "derbyshire" found on lines 5820 
+Index: 1982 Invalid word "italy" found on lines 7595 
+Index: 1982 Invalid word "shaftesbury" found on lines 7407 
+Index: 1984 Invalid word "sowing" found on lines 829 
+Index: 1985 Invalid word "constantinople" found on lines 7710 
+Index: 1985 Invalid word "unobtrusive" found on lines 6017 
+Index: 1986 Invalid word "fatello" found on lines 7272 
+Index: 1989 Invalid word "provident" found on lines 253 
+Index: 1993 Invalid word "white's" found on lines 7638 
+Index: 1993 Invalid word "reg'lar" found on lines 4953 4939 3767 2959 
+Index: 1993 Invalid word "favourite" found on lines 1882 1466 913 
+Index: 1994 Invalid word "inspirit" found on lines 3438 
+Index: 1994 Invalid word "oracular" found on lines 2204 
+Index: 1995 Invalid word "youngsters'" found on lines 2585 
+Index: 1996 Invalid word "chromo" found on lines 7206 
+Index: 1997 Invalid word "priscilla's" found on lines 5971 5917 4138 4066 4050 3636 
+Index: 2004 Invalid word "fortin" found on lines 3590 3341 2822 2386 2382 2379 1888 
+Index: 2004 Invalid word "tarley" found on lines 1710 638 613 251 
+Index: 2005 Invalid word "beery" found on lines 2937 
+Index: 2008 Invalid word "macey" found on lines 7039 6467 5425 5420 4868 4837 4035 4023 4016 4008 4003 3996 3985 3970 3936 3889 3293 3187 3097 3019 3014 3003 2996 2991 2986 2978 2941 2282 2268 2215 2209 2203 2164 2146 2126 2033 2025 2015 1964 1933 1931 1897 1891 1871 1867 1850 1847 1831 1827 1824 1798 1791 1788 1772 1750 1741 1735 1713 1702 1699 226 
+Index: 2009 Invalid word "contradick" found on lines 2181 1684 1668 
+Index: 2011 Invalid word "twelvemonth" found on lines 1095 839 
+Index: 2014 Invalid word "saviour" found on lines 3247 
+Index: 2016 Invalid word "fervid" found on lines 269 
+Index: 2018 Invalid word "poiho" found on lines 7198 
+Index: 2024 Invalid word "duellists" found on lines 7280 
+Index: 2024 Invalid word "as'll" found on lines 6716 5773 5541 5363 
+Index: 2025 Invalid word "a'ready" found on lines 7400 7341 6447 3259 1971 
+Index: 2025 Invalid word "adam" found on lines 58 
+Index: 2028 Invalid word "carkiss" found on lines 1686 1676 
+Index: 2036 Invalid word "durham" found on lines 1691 1681 1653 1646 
+Index: 2037 Invalid word "crackenthorp" found on lines 7019 4518 4494 4446 4431 4418 3940 3927 3819 3750 3745 3696 3679 3187 2918 2310 2292 2051 1763 
+Index: 2037 Invalid word "macmillan" found on lines 24 
+Index: 2038 Invalid word "iona" found on lines 30 
+Index: 2039 Invalid word "gee" found on lines 232 
+Index: 2046 Invalid word "meagre" found on lines 5482 2892 1501 179 
+Index: 2049 Invalid word "fro" found on lines 515 
+Index: 2051 Invalid word "more's" found on lines 3116 
+Index: 2055 Invalid word "stuart" found on lines 7610 7609 
+Index: 2056 Invalid word "gev" found on lines 3190 1938 1710 
+Index: 2058 Invalid word "nutty" found on lines 135 
+Index: 2060 Invalid word "jonathan" found on lines 308 
+Index: 2070 Invalid word "unprepared" found on lines 2685 
+Index: 2072 Invalid word "disinherited" found on lines 992 99 
+Index: 2076 Invalid word "salamanca" found on lines 7329 
+Index: 2078 Invalid word "napoleon" found on lines 7682 7682 7241 
+Index: 2079 Invalid word "windings" found on lines 4320 2967 
+Index: 2079 Invalid word "fibres" found on lines 2883 
+Index: 2079 Invalid word "everything'll" found on lines 1046 
+Index: 2081 Invalid word "sicilies" found on lines 7295 
+Index: 2084 Invalid word "honours" found on lines 3444 
+Index: 2085 Invalid word "waterloo" found on lines 7672 
+Index: 2085 Invalid word "won" found on lines 4661 4507 3419 997 583 
+Index: 2094 Invalid word "decentest" found on lines 7053 7028 7026 6963 6945 6921 6854 6688 6455 6402 5891 5581 5580 5577 5577 5564 5510 5326 5322 5116 4815 4814 4490 3172 3157 3085 3008 2970 2959 2957 2948 2948 2748 2728 2701 2604 2143 
+Index: 2094 Invalid word "ha'" found on lines 2103 
+Index: 2095 Invalid word "everything's" found on lines 6354 6263 
+Index: 2096 Invalid word "tierney" found on lines 7410 
+Index: 2096 Invalid word "canadian" found on lines 11 
+Index: 2101 Invalid word "plunkett" found on lines 7410 
+Index: 2101 Invalid word "sheridan" found on lines 7409 
+Index: 2106 Invalid word "candour" found on lines 3583 1993 
+Index: 2107 Invalid word "phraseology" found on lines 5512 
+Index: 2109 Invalid word "know'd" found on lines 1815 
+Index: 2112 Invalid word "whist" found on lines 4381 
+Index: 2117 Invalid word "mistletoe" found on lines 3921 3739 
+Index: 2118 Invalid word "snowdrops" found on lines 5644 
+Index: 2119 Invalid word "prosaic" found on lines 1082 
+Index: 2120 Invalid word "unstring" found on lines 2605 
+Index: 2121 Invalid word "parochials" found on lines 7455 7454 
+Index: 2121 Invalid word "eppie's" found on lines 7060 6929 6772 6690 6636 6605 6601 6568 6545 6526 6497 6459 6419 6353 6285 5718 5632 5626 5592 5533 5495 5456 5438 5313 5307 5286 5121 5007 5002 4962 4950 
+Index: 2121 Invalid word "unconcern" found on lines 4831 4693 4605 4538 4415 4285 4236 3014 2885 2261 2056 2039 1597 1587 1456 1402 1351 1340 1295 1292 1219 1206 1202 1030 974 
+Index: 2121 Invalid word "marner's" found on lines 858 758 697 643 608 532 463 315 267 217 211 150 
+Index: 2122 Invalid word "who'd" found on lines 6101 
+Index: 2122 Invalid word "parish'ners" found on lines 1967 
+Index: 2126 Invalid word "archibald" found on lines 7698 7683 7673 7127 
+Index: 2128 Invalid word "labouring" found on lines 6082 169 
+Index: 2129 Invalid word "epigram" found on lines 3809 1758 
+Index: 2131 Invalid word "congratulatory" found on lines 1829 
+Index: 2132 Invalid word "rodney's" found on lines 238 
+Index: 2133 Invalid word "irritable" found on lines 3868 
+Index: 2135 Invalid word "wry" found on lines 152 
+Index: 2136 Invalid word "o'ercome" found on lines 5520 
+Index: 2137 Invalid word "calculable" found on lines 2800 
+Index: 2142 Invalid word "kindliest" found on lines 1170 
+Index: 2151 Invalid word "fend" found on lines 6712 4751 3275 
+Index: 2153 Invalid word "thackeray's" found on lines 7457 
+Index: 2154 Invalid word "cataleptic" found on lines 336 
+Index: 2160 Invalid word "flail" found on lines 138 
+Index: 2161 Invalid word "bakehus" found on lines 3154 3147 
+Index: 2163 Invalid word "pshaw" found on lines 2700 
+Index: 2164 Invalid word "journey's" found on lines 4193 
+Index: 2165 Invalid word "p'rhaps" found on lines 1691 1690 1690 
+Index: 2167 Invalid word "gaultier" found on lines 7522 
+Index: 2168 Invalid word "coyness" found on lines 3236 
+Index: 2169 Invalid word "disavowed" found on lines 3672 
+Index: 2169 Invalid word "stablemen" found on lines 1299 
+Index: 2169 Invalid word "chafed" found on lines 1117 
+Index: 2170 Invalid word "colours" found on lines 7792 6191 
+Index: 2170 Invalid word "apothecaries" found on lines 3779 3774 
+Index: 2171 Invalid word "orphin" found on lines 4892 4829 
+Index: 2172 Invalid word "erol" found on lines 3257 
+Index: 2177 Invalid word "soudan" found on lines 7115 7107 
+Index: 2178 Invalid word "simpleton" found on lines 2803 1383 
+Index: 2179 Invalid word "tinder" found on lines 2863 2862 2826 2361 2342 2306 2299 2295 2286 2270 2260 2258 2256 2255 
+Index: 2180 Invalid word "whitbridge" found on lines 2455 
+Index: 2180 Invalid word "alfred" found on lines 683 
+Index: 2184 Invalid word "mansie" found on lines 7323 
+Index: 2189 Invalid word "strafford" found on lines 7407 
+Index: 2191 Invalid word "fording" found on lines 814 800 
+Index: 2192 Invalid word "yallow" found on lines 5650 3617 3576 
+Index: 2193 Invalid word "savoury" found on lines 1461 
+Index: 2195 Invalid word "waggons" found on lines 6866 
+Index: 2195 Invalid word "bandboxes" found on lines 3450 3346 800 
+Index: 2196 Invalid word "'sizes" found on lines 2367 
+Index: 2197 Invalid word "neighbourly" found on lines 5418 4708 3295 3000 2981 2908 
+Index: 2198 Invalid word "rheumatiz" found on lines 7044 
+Index: 2198 Invalid word "www" found on lines 32 
+Index: 2200 Invalid word "docile" found on lines 7054 2313 
+Index: 2200 Invalid word "tookey's" found on lines 1781 1774 
+Index: 2201 Invalid word "hampton" found on lines 7455 
+Index: 2202 Invalid word "crathie" found on lines 7549 
+Index: 2203 Invalid word "magdalene" found on lines 7606 
+Index: 2203 Invalid word "reginald" found on lines 7339 
+Index: 2203 Invalid word "glazier's" found on lines 2331 
+Index: 2210 Invalid word "finlay" found on lines 7726 7703 7147 
+Index: 2213 Invalid word "osgoods" found on lines 3486 773 
+Index: 2217 Invalid word "buttercups" found on lines 7964 7060 7006 6975 6960 6957 6942 6933 6910 6889 6878 6875 6867 6841 6685 6634 6631 6620 6567 6546 6528 6499 6473 6465 6443 6424 6413 6406 6395 6382 6362 6353 6252 6070 5798 5789 5781 5774 5763 5755 5747 5737 5731 5725 5716 5709 5700 5697 5691 5679 5662 5647 5638 5634 5633 5623 5608 5606 5595 5592 5586 5580 5548 5512 5497 5487 5463 5458 5437 5431 5428 5422 5374 5365 5362 5344 5312 5290 5266 5223 5140 5130 5122 5111 5100 5095 5071 5062 5042 5026 5017 5014 5005 4999 4992 4984 4968 4947 4944 4936 4935 
+Index: 2217 Invalid word "silas" found on lines 4925 4901 4887 4877 4871 4860 4847 4803 4762 4741 4710 4693 4591 4476 4473 4436 4430 4428 4424 4419 4415 4368 4359 4353 4352 4344 4342 4333 4328 4311 4300 4269 4259 4248 4236 3305 3294 3283 3265 3207 3201 3175 3163 3140 3133 3124 3109 3090 3075 3070 3060 3058 3010 2976 2941 2924 2919 2909 2875 2354 2351 2228 2170 2150 2130 2127 2109 2096 2069 2063 2050 2036 2032 2031 2026 1621 1545 1534 1477 1465 1460 1440 1340 1197 857 724 720 688 634 630 622 614 608 602 591 571 559 538 532 502 481 477 452 435 431 419 411 404 395 383 376 375 372 366 362 358 355 343 330 321 292 285 282 260 214 198 153 150 133 84 51 17 
+Index: 2222 Invalid word "folio" found on lines 7793 7791 7784 
+Index: 2224 Invalid word "lazaro's" found on lines 7244 
+Index: 2225 Invalid word "hev" found on lines 3216 
+Index: 2226 Invalid word "we'n" found on lines 3191 
+Index: 2227 Invalid word "electress" found on lines 7611 
+Index: 2229 Invalid word "phantasm" found on lines 2891 173 
+Index: 2233 Invalid word "mouldy" found on lines 1384 
+Index: 2233 Invalid word "mdccclxi" found on lines 75 
+Index: 2242 Invalid word "letterpress" found on lines 7792 
+Index: 2242 Invalid word "stan'" found on lines 4758 3232 3227 1966 
+Index: 2243 Invalid word "fiddlestick's" found on lines 3652 
+Index: 2244 Invalid word "weaver's" found on lines 6671 6591 6262 6085 5270 5173 5103 4603 3206 1580 1396 583 
+Index: 2245 Invalid word "'pinion" found on lines 1738 1737 
+Index: 2249 Invalid word "gug" found on lines 4728 4728 4728 
+Index: 2250 Invalid word "irrevocably" found on lines 998 
+Index: 2251 Invalid word "pritty" found on lines 4001 
+Index: 2254 Invalid word "unfeeling" found on lines 6087 5975 
+Index: 2254 Invalid word "sarah's" found on lines 346 
+Index: 2258 Invalid word "unobstructed" found on lines 7392 
+Index: 2259 Invalid word "yapping" found on lines 1988 
+Index: 2264 Invalid word "fencing's" found on lines 5653 
+Index: 2266 Invalid word "infirmities" found on lines 1743 
+Index: 2270 Invalid word "giv'" found on lines 4869 
+Index: 2270 Invalid word "disfiguration" found on lines 4605 
+Index: 2271 Invalid word "water's" found on lines 5676 
+Index: 2274 Invalid word "hamilton" found on lines 7575 
+Index: 2276 Invalid word "unvaryingly" found on lines 6113 
+Index: 2279 Invalid word "swaller" found on lines 4038 4017 
+Index: 2280 Invalid word "piert" found on lines 4021 
+Index: 2287 Invalid word "mayn't" found on lines 6178 5825 3002 
+Index: 2287 Invalid word "appreciatory" found on lines 2979 
+Index: 2288 Invalid word "bruce" found on lines 7218 
+Index: 2288 Invalid word "mistresses" found on lines 5119 
+Index: 2289 Invalid word "firmilian" found on lines 7513 7508 
+Index: 2290 Invalid word "thorndale" found on lines 7742 
+Index: 2297 Invalid word "foxglove" found on lines 600 301 
+Index: 2302 Invalid word "yew" found on lines 5863 3676 3154 
+Index: 2303 Invalid word "peevish" found on lines 5816 4223 
+Index: 2303 Invalid word "honour" found on lines 3894 3762 3674 3554 
+Index: 2307 Invalid word "m'crie" found on lines 7589 7588 
+Index: 2310 Invalid word "land's" found on lines 5318 
+Index: 2312 Invalid word "hamley" found on lines 7416 7218 
+Index: 2313 Invalid word "frighted" found on lines 1909 
+Index: 2314 Invalid word "trackless" found on lines 4276 
+Index: 2315 Invalid word "prevarication" found on lines 5817 4647 2854 2787 
+Index: 2315 Invalid word "tankards" found on lines 2568 860 833 
+Index: 2325 Invalid word "gutenberg" found on lines 27 9 2 
+Index: 2327 Invalid word "hisbroad" found on lines 7947 
+Index: 2334 Invalid word "antonio" found on lines 7278 
+Index: 2337 Invalid word "foolscap" found on lines 7917 7799 7565 7539 7353 7351 7349 7347 7344 7342 7339 7337 7335 7331 7329 7325 7323 7321 7318 7316 7313 7310 7304 7292 7222 
+Index: 2337 Invalid word "lethean" found on lines 498 
+Index: 2338 Invalid word "veracious" found on lines 5249 
+Index: 2341 Invalid word "keating" found on lines 1257 1221 938 
+Index: 2346 Invalid word "turks" found on lines 7713 
+Index: 2352 Invalid word "benignity" found on lines 159 
+Index: 2353 Invalid word "ratepayer" found on lines 5232 
+Index: 2354 Invalid word "many's" found on lines 1875 
+Index: 2355 Invalid word "shiel" found on lines 7410 
+Index: 2356 Invalid word "forefathers'" found on lines 3340 
+Index: 2356 Invalid word "rapping" found on lines 1323 1314 1029 
+Index: 2358 Invalid word "pettishly" found on lines 4118 
+Index: 2362 Invalid word "'ah" found on lines 3906 
+Index: 2362 Invalid word "kench's" found on lines 2223 2202 2182 
+Index: 2363 Invalid word "cock's" found on lines 3990 
+Index: 2364 Invalid word "cajolery" found on lines 1344 
+Index: 2365 Invalid word "m'intosh" found on lines 7896 
+Index: 2366 Invalid word "xxi" found on lines 6838 
+Index: 2366 Invalid word "'macey" found on lines 1912 
+Index: 2367 Invalid word "graven" found on lines 4281 
+Index: 2370 Invalid word "experimentalist" found on lines 7286 
+Index: 2372 Invalid word "wifeless" found on lines 5809 
+Index: 2377 Invalid word "ster" found on lines 1872 
+Index: 2379 Invalid word "sightless" found on lines 4281 
+Index: 2383 Invalid word "diabolical" found on lines 1118 
+Index: 2384 Invalid word "fervour" found on lines 5618 289 
+Index: 2386 Invalid word "alison's" found on lines 7689 7681 
+Index: 2386 Invalid word "bassoon" found on lines 3258 1724 
+Index: 2387 Invalid word "moir" found on lines 7430 7291 
+Index: 2391 Invalid word "lewes" found on lines 7803 7798 7463 
+Index: 2392 Invalid word "visitors'" found on lines 4380 
+Index: 2392 Invalid word "pincushion" found on lines 3522 
+Index: 2394 Invalid word "unresenting" found on lines 1183 
+Index: 2396 Invalid word "overgrown" found on lines 167 
+Index: 2400 Invalid word "skullcap" found on lines 3466 
+Index: 2401 Invalid word "imposin'" found on lines 5350 5347 
+Index: 2402 Invalid word "supped" found on lines 529 
+Index: 2404 Invalid word "theirn" found on lines 3192 
+Index: 2405 Invalid word "tremulous" found on lines 6638 6421 
+Index: 2405 Invalid word "tremulously" found on lines 6339 
+Index: 2407 Invalid word "george" found on lines 7964 7803 7703 7463 7396 7147 2288 834 57 18 
+Index: 2415 Invalid word "keith" found on lines 7788 7779 7691 
+Index: 2416 Invalid word "theism" found on lines 7372 
+Index: 2417 Invalid word "gunns" found on lines 3607 3604 3582 3539 3537 3530 3513 3497 3489 3463 3462 3458 
+Index: 2418 Invalid word "preternatural" found on lines 2134 
+Index: 2419 Invalid word "'em" found on lines 7033 7033 6912 6855 6697 6169 5904 5904 5898 5887 5854 5785 5681 5658 5658 5555 5542 5538 5341 5340 5092 5088 4980 4894 4816 4814 4814 4813 4812 4810 4772 4772 3971 3828 3177 3140 3117 3114 3114 3096 3096 3088 2969 2960 2771 2701 2319 2318 2197 2163 2127 2012 2011 2011 2000 1998 1995 1927 1926 1923 1856 1839 1822 1820 1813 1732 1675 1674 
+Index: 2420 Invalid word "madrid" found on lines 7274 
+Index: 2422 Invalid word "amonnt" found on lines 7956 
+Index: 2425 Invalid word "rollicking" found on lines 195 
+Index: 2426 Invalid word "sarah" found on lines 480 477 473 352 334 
+Index: 2427 Invalid word "yourn's" found on lines 5493 
+Index: 2427 Invalid word "plodding" found on lines 2887 1441 
+Index: 2432 Invalid word "'amen'" found on lines 3000 1844 
+Index: 2436 Invalid word "recommence" found on lines 1009 
+Index: 2437 Invalid word "wald" found on lines 7341 
+Index: 2440 Invalid word "smuggler's" found on lines 7279 
+Index: 2445 Invalid word "'appen" found on lines 3545 3543 
+Index: 2446 Invalid word "soliloquy" found on lines 5961 
+Index: 2451 Invalid word "cliver" found on lines 5543 
+Index: 2451 Invalid word "lundy" found on lines 1980 
+Index: 2457 Invalid word "'cause" found on lines 5644 1854 
+Index: 2457 Invalid word "'old" found on lines 46 
+Index: 2458 Invalid word "thomas" found on lines 7588 7432 7303 
+Index: 2458 Invalid word "consperacy" found on lines 1761 
+Index: 2459 Invalid word "vixenish" found on lines 3038 
+Index: 2462 Invalid word "culpable" found on lines 2477 470 
+Index: 2463 Invalid word "flitton" found on lines 4013 3787 2451 1240 
+Index: 2472 Invalid word "authorised" found on lines 7138 
+Index: 2472 Invalid word "vulgarity" found on lines 3542 
+Index: 2472 Invalid word "jestingly" found on lines 1580 
+Index: 2473 Invalid word "howsomever" found on lines 1916 1814 
+Index: 2478 Invalid word "'it" found on lines 5742 1861 
+Index: 2479 Invalid word "sheepish" found on lines 3931 
+Index: 2479 Invalid word "gruel" found on lines 3163 
+Index: 2479 Invalid word "presupposition" found on lines 2567 
+Index: 2482 Invalid word "sperrits" found on lines 2969 
+Index: 2483 Invalid word "'is't" found on lines 1857 
+Index: 2484 Invalid word "'orse" found on lines 3544 
+Index: 2485 Invalid word "unsensible" found on lines 4772 
+Index: 2489 Invalid word "hedgerow" found on lines 5701 4211 1337 1335 
+Index: 2494 Invalid word "rosaura" found on lines 7274 
+Index: 2495 Invalid word "puritan" found on lines 788 
+Index: 2496 Invalid word "noctes" found on lines 7760 
+Index: 2496 Invalid word "ing" found on lines 2223 1721 
+Index: 2501 Invalid word "toddled" found on lines 5009 4940 4236 4234 
+Index: 2501 Invalid word "wildfire's" found on lines 2493 2490 1229 
+Index: 2502 Invalid word "agriculturist" found on lines 7852 
+Index: 2506 Invalid word "influx" found on lines 4312 
+Index: 2507 Invalid word "walpole" found on lines 7408 
+Index: 2508 Invalid word "'amens" found on lines 7053 1752 
+Index: 2509 Invalid word "'ll" found on lines 4003 3586 
+Index: 2510 Invalid word "inoffensive" found on lines 119 
+Index: 2513 Invalid word "registry" found on lines 4659 
+Index: 2515 Invalid word "pitt" found on lines 7408 
+Index: 2517 Invalid word "melville" found on lines 7594 
+Index: 2517 Invalid word "fatherhood" found on lines 6627 6437 
+Index: 2517 Invalid word "growed" found on lines 5568 1877 
+Index: 2518 Invalid word "crass" found on lines 2015 
+Index: 2520 Invalid word "vicariously" found on lines 5095 
+Index: 2522 Invalid word "turnpike" found on lines 184 
+Index: 2526 Invalid word "wauch" found on lines 7323 
+Index: 2527 Invalid word "smell's" found on lines 2003 
+Index: 2534 Invalid word "joviality" found on lines 3052 
+Index: 2537 Invalid word "natolian" found on lines 7282 
+Index: 2537 Invalid word "ladbrook" found on lines 3465 3461 3460 
+Index: 2543 Invalid word "darnley" found on lines 7608 
+Index: 2543 Invalid word "impartiality" found on lines 3777 
+Index: 2543 Invalid word "evasively" found on lines 2742 
+Index: 2544 Invalid word "unanswering" found on lines 6210 
+Index: 2545 Invalid word "ben's" found on lines 3114 
+Index: 2546 Invalid word "arn't" found on lines 5691 
+Index: 2546 Invalid word "inarticulate" found on lines 4332 4242 
+Index: 2549 Invalid word "wellington's" found on lines 7216 
+Index: 2549 Invalid word "dane's" found on lines 401 
+Index: 2554 Invalid word "pigs'" found on lines 2921 
+Index: 2554 Invalid word "jem" found on lines 2157 2153 2140 2139 2138 2106 2102 2074 2066 2063 2060 2056 2053 1589 1583 1582 1578 238 222 213 
+Index: 2555 Invalid word "begrimed" found on lines 6928 
+Index: 2556 Invalid word "truckle" found on lines 4997 
+Index: 2566 Invalid word "sympathetically" found on lines 5086 
+Index: 2566 Invalid word "throstle" found on lines 1751 
+Index: 2568 Invalid word "albert" found on lines 7550 
+Index: 2568 Invalid word "fly's" found on lines 2209 
+Index: 2569 Invalid word "hosses" found on lines 1935 1921 1902 
+Index: 2571 Invalid word "whitsun" found on lines 196 
+Index: 2572 Invalid word "triumphant" found on lines 3806 
+Index: 2575 Invalid word "goodwill" found on lines 5177 3208 3078 2933 
+Index: 2577 Invalid word "minute's" found on lines 5657 
+Index: 2580 Invalid word "pernouncing" found on lines 1711 
+Index: 2584 Invalid word "ayther" found on lines 4980 
+Index: 2584 Invalid word "surplice" found on lines 2104 
+Index: 2585 Invalid word "elgin" found on lines 7204 
+Index: 2586 Invalid word "gentleman's" found on lines 7253 5462 4528 1748 
+Index: 2588 Invalid word "'our" found on lines 5543 
+Index: 2589 Invalid word "calvin" found on lines 7652 
+Index: 2594 Invalid word "torpid" found on lines 2150 
+Index: 2597 Invalid word "but'll" found on lines 5645 
+Index: 2599 Invalid word "blair" found on lines 7341 
+Index: 2599 Invalid word "'noculation" found on lines 4893 4839 
+Index: 2600 Invalid word "nutting" found on lines 139 
+Index: 2601 Invalid word "geographer" found on lines 7789 7780 
+Index: 2603 Invalid word "contradicking" found on lines 1673 
+Index: 2607 Invalid word "draughts" found on lines 4153 1629 1011 
+Index: 2611 Invalid word "rintoul" found on lines 7283 
+Index: 2611 Invalid word "deppity" found on lines 2183 2180 
+Index: 2611 Invalid word "rickets" found on lines 152 
+Index: 2612 Invalid word "blackwood" found on lines 7233 7098 7092 73 22 
+Index: 2614 Invalid word "wordsworth" found on lines 67 
+Index: 2616 Invalid word "'to" found on lines 7852 
+Index: 2617 Invalid word "lytton's" found on lines 7381 
+Index: 2618 Invalid word "boddice" found on lines 6791 6696 6695 6489 6321 6099 5899 5854 5840 5771 5742 5659 5580 5580 5570 5551 5324 5298 5296 5116 4889 4841 4840 4732 4534 4470 
+Index: 2618 Invalid word "bethinking" found on lines 4115 4020 4000 3625 3617 3617 3171 
+Index: 2618 Invalid word "himsen" found on lines 2973 2929 2609 2287 2014 1960 1927 1766 1737 
+Index: 2618 Invalid word "'ud" found on lines 1676 1637 1070 953 917 
+Index: 2619 Invalid word "propitiatory" found on lines 5109 
+Index: 2620 Invalid word "mischievouser" found on lines 4797 
+Index: 2620 Invalid word "resurgent" found on lines 291 
+Index: 2621 Invalid word "vols" found on lines 7804 7799 7763 7761 7760 7757 7739 7738 7737 7699 7684 7678 7677 7675 7613 7590 7433 7425 7421 7401 7400 7399 
+Index: 2621 Invalid word "solemnities" found on lines 3954 
+Index: 2623 Invalid word "cass's" found on lines 6504 5722 5345 5310 5193 3693 3340 3324 2833 1902 833 812 806 793 223 
+Index: 2624 Invalid word "subterfuge" found on lines 4645 
+Index: 2625 Invalid word "who'll" found on lines 957 
+Index: 2630 Invalid word "livelong" found on lines 3301 725 
+Index: 2635 Invalid word "profligacy" found on lines 4387 
+Index: 2640 Invalid word "herbert" found on lines 7268 
+Index: 2643 Invalid word "squandered" found on lines 2389 
+Index: 2643 Invalid word "distrain" found on lines 886 884 
+Index: 2644 Invalid word "furze" found on lines 5649 5643 5637 5636 4365 4361 4213 
+Index: 2645 Invalid word "offence" found on lines 3754 3744 2841 2474 
+Index: 2646 Invalid word "teetotal" found on lines 7457 
+Index: 2647 Invalid word "mammy's" found on lines 4224 
+Index: 2651 Invalid word "springe" found on lines 3970 
+Index: 2651 Invalid word "'it's" found on lines 1871 
+Index: 2653 Invalid word "greece" found on lines 7721 7716 7712 7712 7705 7702 7148 
+Index: 2655 Invalid word "dreepdaily" found on lines 7252 
+Index: 2655 Invalid word "toddling" found on lines 4991 
+Index: 2656 Invalid word "shirked" found on lines 6818 
+Index: 2658 Invalid word "nayther" found on lines 3986 
+Index: 2660 Invalid word "willis" found on lines 7268 
+Index: 2663 Invalid word "lorraine" found on lines 7607 
+Index: 2664 Invalid word "arbitrament" found on lines 7642 
+Index: 2665 Invalid word "see'd" found on lines 1996 
+Index: 2669 Invalid word "gilbert" found on lines 3508 
+Index: 2672 Invalid word "crocuses" found on lines 5644 
+Index: 2675 Invalid word "inveresk" found on lines 7569 
+Index: 2676 Invalid word "wellington" found on lines 7264 
+Index: 2676 Invalid word "dane" found on lines 480 440 390 387 319 308 
+Index: 2678 Invalid word "trotting" found on lines 137 
+Index: 2679 Invalid word "thou" found on lines 1841 1840 
+Index: 2679 Invalid word "unhurt" found on lines 1451 
+Index: 2681 Invalid word "rusticity" found on lines 5612 
+Index: 2681 Invalid word "see't" found on lines 1814 
+Index: 2686 Invalid word "torpor" found on lines 7819 7727 4220 
+Index: 2686 Invalid word "favourable" found on lines 2796 2792 2532 
+Index: 2688 Invalid word "byzantine" found on lines 7709 
+Index: 2695 Invalid word "hearers'" found on lines 1851 
+Index: 2700 Invalid word "shuttlecock" found on lines 3991 
+Index: 2704 Invalid word "godfrey's" found on lines 6635 6627 6621 6235 6138 6002 5927 5809 4598 4442 4159 4156 4129 4110 4003 3719 2844 2384 2245 1323 1128 1112 871 863 
+Index: 2705 Invalid word "felon" found on lines 2134 1400 
+Index: 2706 Invalid word "favourably" found on lines 2943 
+Index: 2708 Invalid word "'listing" found on lines 1001 
+Index: 2714 Invalid word "blowsy" found on lines 3562 
+Index: 2715 Invalid word "cagliostro" found on lines 7279 
+Index: 2715 Invalid word "pretences" found on lines 2265 
+Index: 2720 Invalid word "anybody's" found on lines 6223 2184 
+Index: 2721 Invalid word "hoss" found on lines 4027 2209 1905 
+Index: 2723 Invalid word "osgood's" found on lines 5723 5680 5025 3514 3505 3503 2391 2239 1606 941 808 771 571 552 
+Index: 2723 Invalid word "undersized" found on lines 98 
+Index: 2724 Invalid word "johnson" found on lines 3786 
+Index: 2725 Invalid word "pandour" found on lines 7275 
+Index: 2725 Invalid word "twitchings" found on lines 3821 
+Index: 2725 Invalid word "spaniel" found on lines 1179 872 
+Index: 2726 Invalid word "kep" found on lines 2948 1815 
+Index: 2728 Invalid word "unturned" found on lines 7864 7849 7825 7815 7175 4660 
+Index: 2728 Invalid word "david" found on lines 307 
+Index: 2729 Invalid word "charles" found on lines 7896 7665 7297 7255 7122 
+Index: 2729 Invalid word "erudite" found on lines 696 
+Index: 2731 Invalid word "unmarketable" found on lines 1268 
+Index: 2733 Invalid word "reverie" found on lines 6158 
+Index: 2733 Invalid word "oftenest" found on lines 5965 
+Index: 2734 Invalid word "antlers" found on lines 5813 
+Index: 2736 Invalid word "morocco" found on lines 7793 7236 
+Index: 2736 Invalid word "ogre" found on lines 3235 
+Index: 2737 Invalid word "moithered" found on lines 4755 
+Index: 2739 Invalid word "musselburgh" found on lines 7574 7431 
+Index: 2739 Invalid word "filibusters" found on lines 7225 
+Index: 2739 Invalid word "trodden" found on lines 1198 1102 
+Index: 2742 Invalid word "mansell" found on lines 7732 
+Index: 2746 Invalid word "susceptibility" found on lines 6368 
+Index: 2746 Invalid word "grooms'" found on lines 1900 
+Index: 2748 Invalid word "quedah" found on lines 7212 
+Index: 2748 Invalid word "who've" found on lines 6705 
+Index: 2749 Invalid word "lackered" found on lines 5625 
+Index: 2750 Invalid word "lieve" found on lines 5853 2727 
+Index: 2752 Invalid word "lieut" found on lines 7416 7219 
+Index: 2755 Invalid word "transcriber's" found on lines 7938 40 
+Index: 2757 Invalid word "mustn't" found on lines 5306 5283 2139 
+Index: 2757 Invalid word "fustian" found on lines 1627 
+Index: 2759 Invalid word "martin" found on lines 7529 
+Index: 2763 Invalid word "gosling" found on lines 4243 
+Index: 2765 Invalid word "yisterday" found on lines 3084 
+Index: 2766 Invalid word "lunnon" found on lines 1924 1903 
+Index: 2769 Invalid word "wi'out" found on lines 4843 3976 
+Index: 2770 Invalid word "satan" found on lines 452 409 341 
+Index: 2774 Invalid word "pekin" found on lines 7198 
+Index: 2775 Invalid word "brooklet" found on lines 5275 
+Index: 2776 Invalid word "drownded" found on lines 2080 
+Index: 2779 Invalid word "watson" found on lines 30 
+Index: 2781 Invalid word "worshipped" found on lines 4914 
+Index: 2781 Invalid word "joke's" found on lines 1770 
+Index: 2782 Invalid word "oxon" found on lines 7750 7450 7437 
+Index: 2783 Invalid word "nat'ral" found on lines 2317 1785 1750 
+Index: 2786 Invalid word "trusten" found on lines 6978 6977 5581 5574 5573 
+Index: 2787 Invalid word "neckcloth" found on lines 3704 
+Index: 2787 Invalid word "cottagers'" found on lines 1401 
+Index: 2790 Invalid word "nowise" found on lines 1714 
+Index: 2791 Invalid word "stephen's" found on lines 7404 
+
+
+Assignment 04 program ends
+
+
+
+Process finished with exit code 0
