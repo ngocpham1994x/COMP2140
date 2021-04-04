@@ -303,7 +303,7 @@ class TableWithSeparateChaining {
 
 
 /******************************************************************
- * Stack Class  (for IncorrectWord class)
+ * Stack Class  (for incorrectWordTable)
  *****************************************************************/
 
 class Stack {
